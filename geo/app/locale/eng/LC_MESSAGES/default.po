@@ -1,0 +1,3253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2008-05-27 12:29+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: elisavet <astariza@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: \cake\dispatcher.php:298
+msgid "Dispatcher::start - Controller::$beforeFilter property usage is deprecated and will no longer be supported.  Use Controller::beforeFilter()."
+msgstr ""
+
+#: \cake\console\error.php:86
+#: \cake\libs\error.php:135
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: \cake\console\error.php:98
+msgid "Missing Controller '%s'"
+msgstr ""
+
+#: \cake\console\error.php:109
+msgid "Missing Method '%s' in '%s'"
+msgstr ""
+
+#: \cake\console\error.php:120
+msgid "Trying to access private method '%s' in '%s'"
+msgstr ""
+
+#: \cake\console\error.php:131
+msgid "Missing database table '%s' for model '%s'"
+msgstr ""
+
+#: \cake\console\error.php:142
+msgid "Missing Database"
+msgstr ""
+
+#: \cake\console\error.php:153
+msgid "Missing View '%s' for '%s' in '%s'"
+msgstr ""
+
+#: \cake\console\error.php:164
+msgid "Missing Layout '%s'"
+msgstr ""
+
+#: \cake\console\error.php:175
+msgid "Missing Database Connection. Try 'cake bake'"
+msgstr ""
+
+#: \cake\console\error.php:186
+msgid "Missing Helper file '%s' for '%s'"
+msgstr ""
+
+#: \cake\console\error.php:197
+msgid "Missing Helper class '%s' in '%s'"
+msgstr ""
+
+#: \cake\console\error.php:208
+msgid "Missing Component file '%s' for '%s'"
+msgstr ""
+
+#: \cake\console\error.php:219
+msgid "Missing Component class '%s' in '%s'"
+msgstr ""
+
+#: \cake\console\error.php:230
+msgid "Missing model '%s'"
+msgstr ""
+
+#: \cake\console\libs\acl.php:79
+msgid "Error: Your current Cake configuration is set to"
+msgstr ""
+
+#: \cake\console\libs\acl.php:80
+msgid "an ACL implementation other than DB. Please change"
+msgstr ""
+
+#: \cake\console\libs\acl.php:81
+msgid "your core config to reflect your decision to use"
+msgstr ""
+
+#: \cake\console\libs\acl.php:82
+msgid "DB_ACL before attempting to use this script"
+msgstr ""
+
+#: \cake\console\libs\acl.php:84
+msgid "Current ACL Classname: %s"
+msgstr ""
+
+#: \cake\console\libs\acl.php:92
+#: \cake\console\libs\bake.php:74
+#: \cake\console\libs\i18n.php:63
+msgid "Your database configuration was not found. Take a moment to create one."
+msgstr ""
+
+#: \cake\console\libs\acl.php:111
+msgid "Available ACL commands:"
+msgstr ""
+
+#: \cake\console\libs\acl.php:123
+msgid "For help, run the 'help' command.  For help on a specific command, run 'help <command>'"
+msgstr ""
+
+#: \cake\console\libs\acl.php:152
+msgid "Could not find parent node using reference \"%s\""
+msgstr ""
+
+#: \cake\console\libs\acl.php:170
+msgid "/ can not be used as an alias!"
+msgstr ""
+
+#: \cake\console\libs\acl.php:170
+msgid "\\t/ is the root, please supply a sub alias"
+msgstr ""
+
+#: \cake\console\libs\acl.php:178
+msgid "New %s '%s' created.\n"
+msgstr ""
+
+#: \cake\console\libs\acl.php:180
+msgid "There was a problem creating a new %s '%s'."
+msgstr ""
+
+#: \cake\console\libs\acl.php:193
+msgid "Node Not Deleted"
+msgstr ""
+
+#: \cake\console\libs\acl.php:193
+msgid "There was an error deleting the %s. Check that the node exists"
+msgstr ""
+
+#: \cake\console\libs\acl.php:195
+msgid "%s deleted"
+msgstr ""
+
+#: \cake\console\libs\acl.php:208
+msgid "Error in setting new parent. Please make sure the parent node exists, and is not a descendant of the node specified."
+msgstr ""
+
+#: \cake\console\libs\acl.php:210
+msgid "Node parent set to %s"
+msgstr ""
+
+#: \cake\console\libs\acl.php:225
+msgid "Supplied Node '%s' not found"
+msgstr ""
+
+#: \cake\console\libs\acl.php:225;309;311;452
+msgid "No tree returned."
+msgstr ""
+
+#: \cake\console\libs\acl.php:241
+msgid "%s is allowed."
+msgstr ""
+
+#: \cake\console\libs\acl.php:243
+msgid "%s is not allowed."
+msgstr ""
+
+#: \cake\console\libs\acl.php:256
+msgid "Permission granted."
+msgstr ""
+
+#: \cake\console\libs\acl.php:258
+msgid "Permission was not granted."
+msgstr ""
+
+#: \cake\console\libs\acl.php:271
+msgid "Permission denied."
+msgstr ""
+
+#: \cake\console\libs\acl.php:273
+msgid "Permission was not denied."
+msgstr ""
+
+#: \cake\console\libs\acl.php:286
+msgid "Permission inherited."
+msgstr ""
+
+#: \cake\console\libs\acl.php:288
+msgid "Permission was not inherited."
+msgstr ""
+
+#: \cake\console\libs\acl.php:309;311;452
+#: \cake\console\libs\api.php:96
+#: \cake\libs\folder.php:588
+msgid "%s not found"
+msgstr ""
+
+#: \cake\console\libs\acl.php:351
+msgid "Usage: cake acl <command> <arg1> <arg2>..."
+msgstr ""
+
+#: \cake\console\libs\acl.php:353
+msgid "Commands:"
+msgstr ""
+
+#: \cake\console\libs\acl.php:357
+msgid "Creates a new ACL object <node> under the parent specified by <parent>, an id/alias."
+msgstr ""
+
+#: \cake\console\libs\acl.php:358
+msgid "The <parent> and <node> references can be in one of the following formats:"
+msgstr ""
+
+#: \cake\console\libs\acl.php:359
+msgid "<model>.<id> - The node will be bound to a specific record of the given model"
+msgstr ""
+
+#: \cake\console\libs\acl.php:360
+msgid "<alias> - The node will be given a string alias (or path, in the case of <parent>),"
+msgstr ""
+
+#: \cake\console\libs\acl.php:361
+msgid "i.e. 'John'.  When used with <parent>, this takes the form of an alias path,"
+msgstr ""
+
+#: \cake\console\libs\acl.php:362
+msgid "i.e. <group>/<subgroup>/<parent>."
+msgstr ""
+
+#: \cake\console\libs\acl.php:363
+msgid "To add a node at the root level, enter 'root' or '/' as the <parent> parameter."
+msgstr ""
+
+#: \cake\console\libs\acl.php:366
+msgid "Deletes the ACL object with the given <node> reference (see 'create' for info on node references)."
+msgstr ""
+
+#: \cake\console\libs\acl.php:369
+msgid "Moves the ACL object specified by <node> beneath the parent ACL object specified by <parent>."
+msgstr ""
+
+#: \cake\console\libs\acl.php:370;376;380;386;392;397;402
+msgid "For more detailed parameter usage info, see help for the 'create' command."
+msgstr ""
+
+#: \cake\console\libs\acl.php:373
+msgid "Returns the path to the ACL object specified by <node>. This command"
+msgstr ""
+
+#: \cake\console\libs\acl.php:374
+msgid "is useful in determining the inhertiance of permissions for a certain"
+msgstr ""
+
+#: \cake\console\libs\acl.php:375
+msgid "object in the tree."
+msgstr ""
+
+#: \cake\console\libs\acl.php:378;382;388;394
+msgid "or"
+msgstr ""
+
+#: \cake\console\libs\acl.php:379
+msgid "Use this command to check ACL permissions."
+msgstr ""
+
+#: \cake\console\libs\acl.php:383
+msgid "Use this command to grant ACL permissions. Once executed, the ARO"
+msgstr ""
+
+#: \cake\console\libs\acl.php:384
+msgid "specified (and its children, if any) will have ALLOW access to the"
+msgstr ""
+
+#: \cake\console\libs\acl.php:385;391
+msgid "specified ACO action (and the ACO's children, if any)."
+msgstr ""
+
+#: \cake\console\libs\acl.php:389
+msgid "Use this command to deny ACL permissions. Once executed, the ARO"
+msgstr ""
+
+#: \cake\console\libs\acl.php:390
+msgid "specified (and its children, if any) will have DENY access to the"
+msgstr ""
+
+#: \cake\console\libs\acl.php:395
+msgid "Use this command to force a child ARO object to inherit its"
+msgstr ""
+
+#: \cake\console\libs\acl.php:396
+msgid "permissions settings from its parent."
+msgstr ""
+
+#: \cake\console\libs\acl.php:400
+msgid "The view command will return the ARO or ACO tree. The optional"
+msgstr ""
+
+#: \cake\console\libs\acl.php:401
+msgid "id/alias parameter allows you to return only a portion of the requested tree."
+msgstr ""
+
+#: \cake\console\libs\acl.php:405
+msgid "Use this command : cake schema run create DbAcl"
+msgstr ""
+
+#: \cake\console\libs\acl.php:408
+msgid "Displays this help message, or a message on a specific command."
+msgstr ""
+
+#: \cake\console\libs\acl.php:419
+msgid "Command '%s' not found"
+msgstr ""
+
+#: \cake\console\libs\acl.php:432
+msgid "Missing/Unknown node type: '%s'"
+msgstr ""
+
+#: \cake\console\libs\acl.php:432
+msgid "Please specify which ACL object type you wish to create."
+msgstr ""
+
+#: \cake\console\libs\api.php:105
+msgid "%s::%s() could not be found"
+msgstr ""
+
+#: \cake\console\libs\api.php:122
+msgid "Select a number to see the more information about a specific method. q to quit. l to list."
+msgstr ""
+
+#: \cake\console\libs\api.php:124
+msgid "Done"
+msgstr ""
+
+#: \cake\console\libs\api.php:195
+msgid "%s could not be found"
+msgstr ""
+
+#: \cake\console\libs\bake.php:57
+#: \cake\console\libs\tasks\plugin.php:91
+msgid ""
+"%s directory could not be found.\n"
+"Be sure you have created %s"
+msgstr ""
+
+#: \cake\console\libs\bake.php:87
+msgid "What would you like to Bake?"
+msgstr ""
+
+#: \cake\console\libs\bake.php:150
+msgid "%s Model was baked."
+msgstr ""
+
+#: \cake\console\libs\bake.php:160
+msgid "%s Controller was baked."
+msgstr ""
+
+#: \cake\console\libs\bake.php:169
+msgid "Bake All complete"
+msgstr ""
+
+#: \cake\console\libs\bake.php:171
+msgid "Bake All could not continue without a valid model"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:74
+msgid "I18n Shell"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:76
+msgid "[E]xtract POT file from sources"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:77
+msgid "[I]nitialize i18n database table"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:78
+msgid "[H]elp"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:79
+msgid "[Q]uit"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:81
+msgid "What would you like to do?"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:96
+msgid "You have made an invalid selection. Please choose a command to execute by entering E, I, H, or Q."
+msgstr ""
+
+#: \cake\console\libs\i18n.php:108
+msgid "Initializing Database..."
+msgstr ""
+
+#: \cake\console\libs\i18n.php:109
+msgid "Creating i18n table ..."
+msgstr ""
+
+#: \cake\console\libs\i18n.php:127
+msgid "Done."
+msgstr ""
+
+#: \cake\console\libs\i18n.php:136
+msgid "I18n Shell:"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:138
+msgid "I18n Shell initializes i18n database table for your application"
+msgstr ""
+
+#: \cake\console\libs\i18n.php:139
+msgid "and generates .pot file(s) with translations."
+msgstr ""
+
+#: \cake\console\libs\i18n.php:141
+msgid "usage:"
+msgstr ""
+
+#: \cake\console\libs\schema.php:95
+msgid "Schema could not be found"
+msgstr ""
+
+#: \cake\console\libs\schema.php:146;149
+msgid "Schema file: %s generated"
+msgstr ""
+
+#: \cake\console\libs\schema.php:164
+msgid "Schema could not be loaded"
+msgstr ""
+
+#: \cake\console\libs\schema.php:183
+msgid "SQL dump file created in %s"
+msgstr ""
+
+#: \cake\console\libs\schema.php:186
+msgid "SQL dump could not be created"
+msgstr ""
+
+#: \cake\console\libs\schema.php:215
+msgid "Performing a dry run."
+msgstr ""
+
+#: \cake\console\libs\schema.php:226
+msgid "%s could not be loaded"
+msgstr ""
+
+#: \cake\console\libs\schema.php:243
+msgid "command not found"
+msgstr ""
+
+#: \cake\console\libs\schema.php:268;314
+msgid "Schema is up to date."
+msgstr ""
+
+#: \cake\console\libs\schema.php:272
+msgid "The following tables will drop."
+msgstr ""
+
+#: \cake\console\libs\schema.php:275
+msgid "Are you sure you want to drop the tables?"
+msgstr ""
+
+#: \cake\console\libs\schema.php:280
+msgid "The following tables will create."
+msgstr ""
+
+#: \cake\console\libs\schema.php:283
+msgid "Are you sure you want to create the tables?"
+msgstr ""
+
+#: \cake\console\libs\schema.php:288
+msgid "End create."
+msgstr ""
+
+#: \cake\console\libs\schema.php:318
+msgid "The following statements will run."
+msgstr ""
+
+#: \cake\console\libs\schema.php:320
+msgid "Are you sure you want to alter the tables?"
+msgstr ""
+
+#: \cake\console\libs\schema.php:322
+msgid "Updating Database..."
+msgstr ""
+
+#: \cake\console\libs\schema.php:326
+msgid "End update."
+msgstr ""
+
+#: \cake\console\libs\schema.php:335
+msgid "Sql could not be run"
+msgstr ""
+
+#: \cake\console\libs\schema.php:345
+msgid "%s is up to date."
+msgstr ""
+
+#: \cake\console\libs\schema.php:348
+msgid "Dry run for %s :"
+msgstr ""
+
+#: \cake\console\libs\schema.php:363
+msgid "%s updated."
+msgstr ""
+
+#: \cake\console\libs\shell.php:412
+msgid "Creating file %s"
+msgstr ""
+
+#: \cake\console\libs\shell.php:414
+msgid "File exists, overwrite?"
+msgstr ""
+
+#: \cake\console\libs\shell.php:416
+msgid "Quitting."
+msgstr ""
+
+#: \cake\console\libs\shell.php:421
+msgid "Skip"
+msgstr ""
+
+#: \cake\console\libs\shell.php:432
+msgid "Wrote"
+msgstr ""
+
+#: \cake\console\libs\shell.php:435
+msgid "Error! Could not write to"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:120
+msgid "Would you like to build your controller interactively?"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:122
+msgid "Warning: Choosing no will overwrite the %sController."
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:129
+msgid "Would you like to use scaffolding?"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:133;159
+msgid "Would you like to include some basic class methods (index(), add(), view(), edit())?"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:136;162
+msgid "Would you like to create the methods for admin routing?"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:139
+msgid "Would you like this controller to use other helpers besides HtmlHelper and FormHelper?"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:142
+msgid ""
+"Please provide a comma separated list of the other helper names you'd like to use.\n"
+"Example: 'Ajax, Javascript, Time'"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:146
+msgid "Would you like this controller to use any components?"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:149
+msgid ""
+"Please provide a comma separated list of the component names you'd like to use.\n"
+"Example: 'Acl, Security, RequestHandler'"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:154
+msgid "Would you like to use Sessions?"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:214
+#: \cake\console\libs\tasks\model.php:179
+msgid "Look okay?"
+msgstr ""
+
+#: \cake\console\libs\tasks\controller.php:243
+msgid "You must have a model for this class to build scaffold methods. Please try again."
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:81
+msgid "Use Database Config"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:92
+msgid "Given your model named '%s', Cake would expect a database table named %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:93
+msgid "Do you want to use this table?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:97;104
+msgid "What is the name of the table (enter \"null\" to use NO table)?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:111
+msgid "Would you like to supply validation criteria for the fields in your model?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:124
+msgid "What is the primaryKey?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:132
+msgid "Would you like to define model associations (hasMany, hasOne, belongsTo, etc.)?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:134
+msgid "One moment while the associations are detected."
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:140
+msgid "The following Model will be created:"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:360
+msgid "None found."
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:362
+msgid "Please confirm the following associations:"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:371
+msgid "This looks like a self join. Please specify an alternate association alias."
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:386
+msgid "Would you like to define some additional model associations?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:392
+msgid "What is the association type?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:397;432
+msgid "Enter a number"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:400
+msgid "The selection you entered was invalid. Please enter a number between 1 and 4."
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:405
+msgid "For the following options be very careful to match your setup exactly. Any spelling mistakes will cause errors."
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:407
+msgid "What is the alias for this association?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:408
+msgid "What className will %s use?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:422
+msgid "What is the table for this model?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:428
+msgid "A helpful List of possible keys"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:432
+msgid "What is the foreignKey?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:438
+msgid "What is the foreignKey? Specify your own."
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:441
+msgid "What is the associationForeignKey?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:442
+msgid "What is the joinTable?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:454
+msgid "Define another association?"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:669
+msgid "Possible Models based on your current database:"
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:690
+msgid "Enter a number from the list above, or type in the name of another model."
+msgstr ""
+
+#: \cake\console\libs\tasks\model.php:693
+msgid "The model name you supplied was empty, or the number you selected was not an option. Please try again."
+msgstr ""
+
+#: \cake\console\libs\tasks\plugin.php:111
+msgid "Enter the name of the plugin in CamelCase format"
+msgstr ""
+
+#: \cake\console\libs\tasks\plugin.php:115
+msgid "An error occured trying to bake: %s in %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\plugin.php:139
+#: \cake\console\libs\tasks\project.php:181
+msgid "Do you want verbose output?"
+msgstr ""
+
+#: \cake\console\libs\tasks\plugin.php:177
+#: \cake\console\libs\tasks\project.php:186
+msgid "Created: %s in %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:114
+msgid "The directory path you supplied was not found. Please try again."
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:120
+msgid "Welcome page created"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:122
+msgid "The Welcome page was NOT created"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:126
+msgid "Random hash key created for 'Security.salt'"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:128
+msgid "Unable to generate random hash for 'Security.salt', you should change it in %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:133
+msgid "CAKE_CORE_INCLUDE_PATH set to %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:135
+msgid "Unable to set CAKE_CORE_INCLUDE_PATH, you should change it in %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:139
+msgid "Could not set permissions on %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:140
+msgid "chmod -R 0777 %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:161
+msgid ""
+"What is the path to the directory layout you wish to copy?\n"
+"Example: %s"
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:163
+msgid "The directory path you supplied was empty. Please try again."
+msgstr ""
+
+#: \cake\console\libs\tasks\project.php:166
+msgid "Directory path does not exist please choose another:"
+msgstr ""
+
+#: \cake\console\libs\tasks\view.php:231
+msgid "Controller not found"
+msgstr ""
+
+#: \cake\console\libs\tasks\view.php:237
+msgid ""
+"The file '%s' could not be found.\n"
+"In order to bake a view, you'll need to first create the controller."
+msgstr ""
+
+#: \cake\console\libs\tasks\view.php:322
+msgid "Template for %s could not be found"
+msgstr ""
+
+#: \cake\console\libs\templates\skel\views\layouts\default.ctp:31
+#: \cake\libs\view\layouts\default.ctp:31
+#: \cake\tests\test_app\views\layouts\default.ctp:31
+#: \views\layouts\default.ctp:31
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: \cake\console\libs\templates\skel\views\layouts\default.ctp:46;60
+#: \cake\libs\view\layouts\default.ctp:46;60
+#: \cake\tests\test_app\views\layouts\default.ctp:45;59
+#: \views\layouts\default.ctp:46;60
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: \cake\console\libs\templates\skel\webroot\test.php:68
+#: \webroot\test.php:68
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: \cake\libs\cache.php:404
+msgid "Method write() not implemented in %s"
+msgstr ""
+
+#: \cake\libs\cache.php:414
+msgid "Method read() not implemented in %s"
+msgstr ""
+
+#: \cake\libs\class_registry.php:134
+msgid "(ClassRegistry::init() could not create instance of %1$s class %2$s "
+msgstr ""
+
+#: \cake\libs\class_registry.php:144
+msgid "(ClassRegistry::init() Attempted to create instance of a class with a numeric name"
+msgstr ""
+
+#: \cake\libs\configure.php:383
+msgid "Configure::load() - no variable $config found in %s.php"
+msgstr ""
+
+#: \cake\libs\configure.php:610
+msgid "Can't find application core file. Please create %score.php, and make sure it is readable by PHP."
+msgstr ""
+
+#: \cake\libs\configure.php:614
+msgid "Can't find application bootstrap file. Please create %sbootstrap.php, and make sure it is readable by PHP."
+msgstr ""
+
+#: \cake\libs\debugger.php:535
+msgid "Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application"
+msgstr ""
+
+#: \cake\libs\error.php:134
+msgid "Not Found"
+msgstr ""
+
+#: \cake\libs\error.php:155
+#: \cake\libs\view\errors\missing_controller.ctp:27
+msgid "Missing Controller"
+msgstr ""
+
+#: \cake\libs\error.php:176
+msgid "Missing Method in Controller"
+msgstr ""
+
+#: \cake\libs\error.php:195
+msgid "Trying to access private method in class"
+msgstr ""
+
+#: \cake\libs\error.php:213
+#: \cake\libs\view\errors\missing_table.ctp:27
+msgid "Missing Database Table"
+msgstr ""
+
+#: \cake\libs\error.php:229
+msgid "Scaffold Missing Database Connection"
+msgstr ""
+
+#: \cake\libs\error.php:249
+#: \cake\libs\view\errors\missing_view.ctp:27
+msgid "Missing View"
+msgstr ""
+
+#: \cake\libs\error.php:268
+#: \cake\libs\view\errors\missing_layout.ctp:27
+msgid "Missing Layout"
+msgstr ""
+
+#: \cake\libs\error.php:285
+#: \cake\libs\view\errors\missing_connection.ctp:27
+#: \cake\libs\view\errors\missing_scaffolddb.ctp:27
+msgid "Missing Database Connection"
+msgstr ""
+
+#: \cake\libs\error.php:304
+#: \cake\libs\view\errors\missing_helper_file.ctp:27
+msgid "Missing Helper File"
+msgstr ""
+
+#: \cake\libs\error.php:323
+#: \cake\libs\view\errors\missing_helper_class.ctp:27
+msgid "Missing Helper Class"
+msgstr ""
+
+#: \cake\libs\error.php:343
+#: \cake\libs\view\errors\missing_component_file.ctp:27
+msgid "Missing Component File"
+msgstr ""
+
+#: \cake\libs\error.php:363
+#: \cake\libs\view\errors\missing_component_class.ctp:27
+msgid "Missing Component Class"
+msgstr ""
+
+#: \cake\libs\error.php:381
+#: \cake\libs\view\errors\missing_model.ctp:27
+msgid "Missing Model"
+msgstr ""
+
+#: \cake\libs\folder.php:366;386
+msgid "%s changed to %s"
+msgstr ""
+
+#: \cake\libs\folder.php:369;388
+msgid "%s NOT changed to %s"
+msgstr ""
+
+#: \cake\libs\folder.php:473
+msgid "%s is a file"
+msgstr ""
+
+#: \cake\libs\folder.php:481;621
+msgid "%s created"
+msgstr ""
+
+#: \cake\libs\folder.php:484
+msgid "%s NOT created"
+msgstr ""
+
+#: \cake\libs\folder.php:547;563
+msgid "%s removed"
+msgstr ""
+
+#: \cake\libs\folder.php:549;560
+msgid "%s NOT removed"
+msgstr ""
+
+#: \cake\libs\folder.php:597
+msgid "%s not writable"
+msgstr ""
+
+#: \cake\libs\folder.php:612
+msgid "%s copied to %s"
+msgstr ""
+
+#: \cake\libs\folder.php:614
+msgid "%s NOT copied to %s"
+msgstr ""
+
+#: \cake\libs\folder.php:625
+msgid "%s not created"
+msgstr ""
+
+#: \cake\libs\http_socket.php:431
+msgid "HttpSocket::decodeBody - Unknown encoding: %s. Activate quirks mode to surpress error."
+msgstr ""
+
+#: \cake\libs\http_socket.php:456
+msgid "HttpSocket::decodeChunkedBody - Could not parse malformed chunk. Activate quirks mode to do this."
+msgstr ""
+
+#: \cake\libs\http_socket.php:702
+msgid "HttpSocket::buildRequestLine - Passed an invalid request line string. Activate quirks mode to do this."
+msgstr ""
+
+#: \cake\libs\http_socket.php:717
+msgid "HttpSocket::buildRequestLine - The \"*\" asterisk character is only allowed for the following methods: %s. Activate quirks mode to work outside of HTTP/1.1 specs."
+msgstr ""
+
+#: \cake\libs\overloadable_php4.php:82;134
+#: \cake\libs\overloadable_php5.php:57;82
+msgid "Magic method handler call__ not defined in %s"
+msgstr ""
+
+#: \cake\libs\session.php:476
+msgid "You must set the all Configure::write('Session.*') in core.php to use database storage"
+msgstr ""
+
+#: \cake\libs\validation.php:333
+msgid "You must define the $operator parameter for Validation::comparison()"
+msgstr ""
+
+#: \cake\libs\validation.php:357
+msgid "You must define a regular expression for Validation::custom()"
+msgstr ""
+
+#: \cake\libs\cache\file.php:263
+msgid "%s is not writable"
+msgstr ""
+
+#: \cake\libs\controller\controller.php:289
+msgid "Controller::__construct() : Can not get or parse my own class name, exiting."
+msgstr ""
+
+#: \cake\libs\controller\controller.php:612
+#: \cake\libs\controller\components\auth.php:450
+msgid "%s::isAuthorized() is not defined."
+msgstr ""
+
+#: \cake\libs\controller\controller.php:901
+msgid "Controller::paginate() - can't find model %1$s in controller %2$sController"
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:175
+msgid "Scaffold :: "
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:208;211
+msgid "No id set for %s::view()"
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:258
+msgid "updated"
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:261
+msgid "saved"
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:272;275
+msgid "Invalid id for %s::edit()"
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:288;291
+msgid "The %1$s has been %2$s"
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:298
+msgid "Please correct errors below."
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:337;340
+msgid "No id set for %s::delete()"
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:346;349
+msgid "The %1$s with id: %2$d has been deleted."
+msgstr ""
+
+#: \cake\libs\controller\scaffold.php:353;356
+msgid "There was an error deleting the %1$s with id: %2$d"
+msgstr ""
+
+#: \cake\libs\controller\components\acl.php:58
+msgid "Could not find %s."
+msgstr ""
+
+#: \cake\libs\controller\components\acl.php:211
+msgid "[acl_base] The AclBase class constructor has been called, or the class was instantiated. This class must remain abstract. Please refer to the Cake docs for ACL configuration."
+msgstr ""
+
+#: \cake\libs\controller\components\acl.php:293
+msgid "ACO permissions key %s does not exist in DB_ACL::check()"
+msgstr ""
+
+#: \cake\libs\controller\components\acl.php:362
+msgid "DB_ACL::allow() - Invalid node"
+msgstr ""
+
+#: \cake\libs\controller\components\auth.php:258
+msgid "Login failed. Invalid username or password."
+msgstr ""
+
+#: \cake\libs\controller\components\auth.php:262
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: \cake\libs\controller\components\auth.php:335
+msgid "Could not find AclComponent. Please include Acl in Controller::$components."
+msgstr ""
+
+#: \cake\libs\controller\components\auth.php:370
+msgid "Could not find $userModel. Please set AuthComponent::$userModel in beforeFilter()."
+msgstr ""
+
+#: \cake\libs\controller\components\auth.php:425
+msgid "Auth::startup() - Attempted access of un-mapped action \"%1$s\" in controller \"%2$s\""
+msgstr ""
+
+#: \cake\libs\controller\components\auth.php:444
+msgid "Could not find %s. Set AuthComponent::$object in beforeFilter() or pass a valid object"
+msgstr ""
+
+#: \cake\libs\controller\components\auth.php:458
+msgid "Auth::isAuthorized() - $authorize is set to an incorrect value.  Allowed settings are: \"actions\", \"crud\", \"model\" or null."
+msgstr ""
+
+#: \cake\libs\controller\components\auth.php:687
+msgid "Auth::getModel() - Model is not set or could not be found"
+msgstr ""
+
+#: \cake\libs\controller\components\security.php:231
+msgid "SecurityComponent::loginCredentials() - Server does not support digest authentication"
+msgstr ""
+
+#: \cake\libs\model\connection_manager.php:113
+msgid "ConnectionManager::getDataSource - Non-existent data source %s"
+msgstr ""
+
+#: \cake\libs\model\connection_manager.php:180
+msgid "Unable to load DataSource file %s.php"
+msgstr ""
+
+#: \cake\libs\model\model.php:941
+msgid "(Model::getColumnTypes) Unable to build model field data. If you are using a model without a database table, try implementing schema()"
+msgstr ""
+
+#: \cake\libs\model\model.php:959
+msgid "(Model::getColumnType) Unable to locate model field data. If you are using a model without a database table, try implementing schema()"
+msgstr ""
+
+#: \cake\libs\model\model.php:2018
+msgid "(Model::validates) Parameter usage is deprecated, use Model::set() to update your fields first"
+msgstr ""
+
+#: \cake\libs\model\model.php:2051
+msgid "(Model::invalidFields) Parameter usage is deprecated, set the $data property instead"
+msgstr ""
+
+#: \cake\libs\model\model.php:2081
+msgid "This field cannot be left blank"
+msgstr ""
+
+#: \cake\libs\model\model.php:2191
+msgid "(Model::generateList) Deprecated, use Model::find(\"list\") or Model::find(\"all\") and Set::combine()"
+msgstr ""
+
+#: \cake\libs\model\model.php:2455
+msgid "Invalid join model settings in %s"
+msgstr ""
+
+#: \cake\libs\model\datasources\dbo_source.php:666
+msgid "SQL Error in model %s:"
+msgstr ""
+
+#: \cake\libs\model\datasources\dbo_source.php:1946;2001
+#: \cake\libs\model\datasources\dbo\dbo_mysql.php:521
+msgid "Invalid schema object"
+msgstr ""
+
+#: \cake\libs\view\helper.php:148
+msgid "Method %1$s::%2$s does not exist"
+msgstr ""
+
+#: \cake\libs\view\view.php:359
+msgid "Error in view %s, got: <blockquote>%s</blockquote>"
+msgstr ""
+
+#: \cake\libs\view\view.php:455
+msgid "Error in layout %s, got: <blockquote>%s</blockquote>"
+msgstr ""
+
+#: \cake\libs\view\elements\dump.ctp:28
+msgid "Controller dump:"
+msgstr ""
+
+#: \cake\libs\view\errors\error404.ctp:29
+#: \cake\libs\view\errors\missing_action.ctp:29;33
+#: \cake\libs\view\errors\missing_component_class.ctp:29;33
+#: \cake\libs\view\errors\missing_component_file.ctp:29;33
+#: \cake\libs\view\errors\missing_connection.ctp:29;33
+#: \cake\libs\view\errors\missing_controller.ctp:29;33
+#: \cake\libs\view\errors\missing_helper_class.ctp:29;33
+#: \cake\libs\view\errors\missing_helper_file.ctp:29;33
+#: \cake\libs\view\errors\missing_layout.ctp:29;33
+#: \cake\libs\view\errors\missing_model.ctp:29;33
+#: \cake\libs\view\errors\missing_scaffolddb.ctp:29;33
+#: \cake\libs\view\errors\missing_table.ctp:29
+#: \cake\libs\view\errors\missing_view.ctp:29;33
+#: \cake\libs\view\errors\private_action.ctp:29
+#: \cake\libs\view\errors\scaffold_error.ctp:29
+msgid "Error"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_action.ctp:27
+msgid "Missing Method in %s"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_action.ctp:30
+msgid "The action %1$s is not defined in controller %2$s"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_action.ctp:34
+msgid "Create %1$s%2$s in file: %3$s."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_action.ctp:51
+#: \cake\libs\view\errors\missing_component_class.ctp:44
+#: \cake\libs\view\errors\missing_component_file.ctp:44
+#: \cake\libs\view\errors\missing_connection.ctp:37
+#: \cake\libs\view\errors\missing_controller.ctp:45
+#: \cake\libs\view\errors\missing_helper_class.ctp:44
+#: \cake\libs\view\errors\missing_helper_file.ctp:44
+#: \cake\libs\view\errors\missing_layout.ctp:37
+#: \cake\libs\view\errors\missing_model.ctp:46
+#: \cake\libs\view\errors\missing_scaffolddb.ctp:37
+#: \cake\libs\view\errors\missing_table.ctp:33
+#: \cake\libs\view\errors\missing_view.ctp:37
+#: \cake\libs\view\errors\private_action.ctp:33
+#: \cake\libs\view\errors\scaffold_error.ctp:33
+msgid "Notice"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_action.ctp:52
+#: \cake\libs\view\errors\missing_connection.ctp:38
+msgid "If you want to customize this error message, create %s."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_component_class.ctp:30
+msgid "Component class %1$s in %2$s was not found."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_component_class.ctp:34
+#: \cake\libs\view\errors\missing_component_file.ctp:34
+#: \cake\libs\view\errors\missing_model.ctp:34
+msgid "Create the class %s in file: %s"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_component_class.ctp:45
+#: \cake\libs\view\errors\missing_component_file.ctp:45
+#: \cake\libs\view\errors\missing_controller.ctp:46
+#: \cake\libs\view\errors\missing_helper_class.ctp:45
+#: \cake\libs\view\errors\missing_helper_file.ctp:45
+#: \cake\libs\view\errors\missing_layout.ctp:38
+#: \cake\libs\view\errors\missing_model.ctp:47
+#: \cake\libs\view\errors\missing_scaffolddb.ctp:38
+#: \cake\libs\view\errors\missing_table.ctp:34
+#: \cake\libs\view\errors\missing_view.ctp:38
+#: \cake\libs\view\errors\private_action.ctp:34
+#: \cake\libs\view\errors\scaffold_error.ctp:34
+msgid "If you want to customize this error message, create %s"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_component_file.ctp:30
+msgid "The component file was not found."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_connection.ctp:30
+msgid "%s requires a database connection"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_connection.ctp:34
+msgid "Confirm you have created the file : %s."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_controller.ctp:30
+msgid "%s could not be found."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_controller.ctp:34
+msgid "Create the class %s below in file: %s"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_helper_class.ctp:30
+msgid "The helper class <em>%s</em> can not be found or does not exist."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_helper_class.ctp:34
+#: \cake\libs\view\errors\missing_helper_file.ctp:34
+msgid "Create the class below in file: %s"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_helper_file.ctp:30
+msgid "The helper file %s can not be found or does not exist."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_layout.ctp:30
+msgid "The layout file %s can not be found or does not exist."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_layout.ctp:34
+#: \cake\libs\view\errors\missing_scaffolddb.ctp:34
+#: \cake\libs\view\errors\missing_view.ctp:34
+msgid "Confirm you have created the file: %s"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_model.ctp:30
+msgid "<em>%s</em> could not be found."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_scaffolddb.ctp:30
+msgid "Scaffold requires a database connection"
+msgstr ""
+
+#: \cake\libs\view\errors\missing_table.ctp:30
+msgid "Database table %1$s for model %2$s was not found."
+msgstr ""
+
+#: \cake\libs\view\errors\missing_view.ctp:30
+msgid "The view for %1$s%2$s was not found."
+msgstr ""
+
+#: \cake\libs\view\errors\private_action.ctp:27
+msgid "Private Method in %s"
+msgstr ""
+
+#: \cake\libs\view\errors\private_action.ctp:30
+msgid "%s%s cannot be accessed directly."
+msgstr ""
+
+#: \cake\libs\view\errors\scaffold_error.ctp:27
+msgid "Scaffold Error"
+msgstr ""
+
+#: \cake\libs\view\errors\scaffold_error.ctp:30
+msgid "Method _scaffoldError in was not found in the controller"
+msgstr ""
+
+#: \cake\libs\view\helpers\form.php:124
+msgid "(FormHelper::create) Unable to use model field data. If you are using a model without a database table, try implementing schema()"
+msgstr ""
+
+#: \cake\libs\view\helpers\form.php:252;924
+#: \cake\libs\view\scaffolds\edit.ctp:31
+msgid "Submit"
+msgstr ""
+
+#: \cake\libs\view\helpers\form.php:375
+msgid "Error in field %s"
+msgstr ""
+
+#: \cake\libs\view\helpers\form.php:456
+msgid "New"
+msgstr ""
+
+#: \cake\libs\view\helpers\form.php:458
+#: \cake\libs\view\scaffolds\index.ctp:68
+#: \cake\libs\view\scaffolds\view.ctp:147
+#: \views\collections\admin_index.ctp:48
+#: \views\collections\admin_view.ctp:102
+#: \views\collections\index.ctp:48
+#: \views\collections\view.ctp:102
+#: \views\countries\admin_index.ctp:64
+#: \views\countries\admin_view.ctp:122
+#: \views\countries\index.ctp:64
+#: \views\countries\view.ctp:122
+#: \views\crystal_systems\admin_index.ctp:52
+#: \views\crystal_systems\admin_view.ctp:91
+#: \views\crystal_systems\index.ctp:52
+#: \views\crystal_systems\view.ctp:91
+#: \views\danas\admin_index.ctp:52
+#: \views\danas\admin_view.ctp:91
+#: \views\danas\index.ctp:52
+#: \views\danas\view.ctp:91
+#: \views\estimations\admin_index.ctp:48
+#: \views\estimations\admin_view.ctp:102
+#: \views\estimations\index.ctp:48
+#: \views\estimations\view.ctp:102
+#: \views\id_histories\admin_index.ctp:52
+#: \views\id_histories\index.ctp:52
+#: \views\minerals\admin_index.ctp:68
+#: \views\minerals\index.ctp:68
+#: \views\notes\admin_index.ctp:56
+#: \views\notes\index.ctp:56
+#: \views\samples\admin_index.ctp:100
+#: \views\samples\admin_view.ctp:199;253
+#: \views\samples\index.ctp:100
+#: \views\samples\view.ctp:199;253
+msgid "Edit"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:471
+msgid "(HtmlHelper::radio) Deprecated: Use FormHelper::radio instead"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:644
+msgid "Method password() is deprecated in %s: see FormHelper::input or FormHelper::password"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:659
+msgid "Method textarea() is deprecated in %s: see FormHelper::input or FormHelper::textarea"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:681
+msgid "Method checkbox() is deprecated in %s: see FormHelper::input or FormHelper::checkbox"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:723
+msgid "Method hidden() is deprecated in %s: see FormHelper::input or FormHelper::hidden"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:735
+msgid "Method input() is deprecated in %s: see FormHelper::input or FormHelper::text"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:756
+msgid "Method tagValue() is deprecated in %s: see Helper::value"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:770
+msgid "Method validate() is deprecated in %s: see FormHelper::errors"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:782
+msgid "Method validateErrors() is deprecated in %s: see FormHelper::errors"
+msgstr ""
+
+#: \cake\libs\view\helpers\html.php:801
+msgid "Method tagErrorMsg() is deprecated in %s: see FormHelper::error"
+msgstr ""
+
+#: \cake\libs\view\helpers\session.php:172
+msgid "You can not write to a Session from the view"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:27
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:109
+msgid "Release Notes for CakePHP %s."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:28
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:110
+msgid "Read the release notes and get the latest version"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:38
+#: \cake\tests\test_app\views\pages\home.ctp:12
+#: \views\pages\home.ctp:12
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:42
+#: \cake\tests\test_app\views\pages\home.ctp:16
+#: \views\pages\home.ctp:16
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:52
+#: \cake\tests\test_app\views\pages\home.ctp:26
+#: \views\pages\home.ctp:26
+msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:56
+#: \cake\tests\test_app\views\pages\home.ctp:30
+#: \views\pages\home.ctp:30
+msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:66
+#: \cake\tests\test_app\views\pages\home.ctp:40
+#: \views\pages\home.ctp:40
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:71
+#: \cake\tests\test_app\views\pages\home.ctp:45
+#: \views\pages\home.ctp:45
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:73
+#: \cake\tests\test_app\views\pages\home.ctp:47
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:84
+#: \views\pages\home.ctp:47
+msgid "Rename config/database.php.default to config/database.php"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:88
+#: \cake\tests\test_app\views\pages\home.ctp:62
+#: \views\pages\home.ctp:62
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:92
+#: \cake\tests\test_app\views\pages\home.ctp:66
+#: \views\pages\home.ctp:66
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:98
+#: \cake\tests\test_app\views\pages\home.ctp:72
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:111
+#: \views\pages\home.ctp:72
+msgid "Editing this Page"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:101
+msgid ""
+"To change the content of this page, edit: APP/views/pages/home.ctp.<br />\n"
+"To change its layout, edit: APP/views/layouts/default.ctp.<br />\n"
+"You can also add some CSS styles for your pages at: APP/webroot/css."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:106
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:118
+msgid "Getting Started"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:109
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:120
+msgid "The 15 min Blog Tutorial"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:110
+msgid "The OCPHP presentation on new features in 1.2"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:112
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:124
+msgid "More about Cake"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:114
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:126
+msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:117
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:129
+msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:121
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:132
+msgid "Cake Software Foundation"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:122
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:133
+msgid "Promoting development related to CakePHP"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:123
+msgid "The Show"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:124
+msgid "The Show is a weekly live internet radio broadcast where we discuss CakePHP-related topics and answer questions live via IRC, Skype, and telephone."
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:125
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:134
+msgid "The Bakery"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:126
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:135
+msgid "Everything CakePHP"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:127
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:136
+msgid "Book Store"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:128
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:137
+msgid "Recommended Software Books"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:129
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:138
+msgid "CakeSchwag"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:130
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:139
+msgid "Get your own CakePHP gear - Doughnate to Cake"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:131
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:140
+msgid "CakePHP"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:132
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:141
+msgid "The Rapid Development Framework"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:133
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:142
+msgid "CakePHP Manual"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:134
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:143
+msgid "Your Rapid Development Cookbook"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:135
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:144
+msgid "CakePHP API"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:136
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:145
+msgid "Docblock Your Best Friend"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:137
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:146
+msgid "CakeForge"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:138
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:147
+msgid "Open Development for CakePHP"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:139
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:148
+msgid "CakePHP Trac"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:140
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:149
+msgid "For the Development of CakePHP (Tickets, SVN browser, Roadmap, Changelogs)"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:141
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:150
+msgid "CakePHP Google Group"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:142
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:151
+msgid "Community mailing list"
+msgstr ""
+
+#: \cake\libs\view\pages\home.ctp:144
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:153
+msgid "Live chat about CakePHP"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\edit.ctp:37
+#: \cake\libs\view\scaffolds\index.ctp:69
+#: \cake\libs\view\scaffolds\view.ctp:148
+#: \views\collections\admin_edit.ctp:16
+#: \views\collections\admin_index.ctp:49
+#: \views\collections\admin_view.ctp:103
+#: \views\collections\index.ctp:49
+#: \views\collections\view.ctp:103
+#: \views\countries\admin_edit.ctp:20
+#: \views\countries\admin_index.ctp:65
+#: \views\countries\admin_view.ctp:123
+#: \views\countries\index.ctp:65
+#: \views\countries\view.ctp:123
+#: \views\crystal_systems\admin_edit.ctp:17
+#: \views\crystal_systems\admin_index.ctp:53
+#: \views\crystal_systems\admin_view.ctp:92
+#: \views\crystal_systems\index.ctp:53
+#: \views\crystal_systems\view.ctp:92
+#: \views\danas\admin_edit.ctp:17
+#: \views\danas\admin_index.ctp:53
+#: \views\danas\admin_view.ctp:92
+#: \views\danas\index.ctp:53
+#: \views\danas\view.ctp:92
+#: \views\estimations\admin_edit.ctp:16
+#: \views\estimations\admin_index.ctp:49
+#: \views\estimations\admin_view.ctp:103
+#: \views\estimations\index.ctp:49
+#: \views\estimations\view.ctp:103
+#: \views\id_histories\admin_edit.ctp:17
+#: \views\id_histories\admin_index.ctp:53
+#: \views\id_histories\index.ctp:53
+#: \views\minerals\admin_edit.ctp:21
+#: \views\minerals\admin_index.ctp:69
+#: \views\minerals\index.ctp:69
+#: \views\notes\admin_edit.ctp:18
+#: \views\notes\admin_index.ctp:57
+#: \views\notes\index.ctp:57
+#: \views\samples\admin_edit.ctp:30
+#: \views\samples\admin_index.ctp:101
+#: \views\samples\admin_view.ctp:200;254
+#: \views\samples\index.ctp:101
+#: \views\samples\view.ctp:200;254
+msgid "Delete"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\edit.ctp:37
+#: \cake\libs\view\scaffolds\index.ctp:69
+#: \cake\libs\view\scaffolds\view.ctp:60;148
+msgid "Are you sure you want to delete"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\edit.ctp:39
+msgid "List"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\edit.ctp:45
+#: \cake\libs\view\scaffolds\index.ctp:91
+#: \cake\libs\view\scaffolds\view.ctp:61;68
+msgid "List %s"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\edit.ctp:46
+#: \cake\libs\view\scaffolds\index.ctp:92
+#: \cake\libs\view\scaffolds\view.ctp:62;69;157
+msgid "New %s"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\index.ctp:39
+#: \views\collections\admin_index.ctp:17
+#: \views\collections\admin_view.ctp:70
+#: \views\collections\index.ctp:17
+#: \views\collections\view.ctp:70
+#: \views\countries\admin_index.ctp:21
+#: \views\countries\admin_view.ctp:90
+#: \views\countries\index.ctp:21
+#: \views\countries\view.ctp:90
+#: \views\crystal_systems\admin_index.ctp:18
+#: \views\crystal_systems\admin_view.ctp:67
+#: \views\crystal_systems\index.ctp:18
+#: \views\crystal_systems\view.ctp:67
+#: \views\danas\admin_index.ctp:18
+#: \views\danas\admin_view.ctp:67
+#: \views\danas\index.ctp:18
+#: \views\danas\view.ctp:67
+#: \views\estimations\admin_index.ctp:17
+#: \views\estimations\admin_view.ctp:70
+#: \views\estimations\index.ctp:17
+#: \views\estimations\view.ctp:70
+#: \views\id_histories\admin_index.ctp:18
+#: \views\id_histories\index.ctp:18
+#: \views\minerals\admin_index.ctp:22
+#: \views\minerals\index.ctp:22
+#: \views\notes\admin_index.ctp:19
+#: \views\notes\index.ctp:19
+#: \views\samples\admin_index.ctp:30
+#: \views\samples\admin_view.ctp:179;229
+#: \views\samples\index.ctp:30
+#: \views\samples\view.ctp:179;229
+msgid "Actions"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\index.ctp:67
+#: \cake\libs\view\scaffolds\view.ctp:146
+#: \views\collections\admin_index.ctp:47
+#: \views\collections\admin_view.ctp:101
+#: \views\collections\index.ctp:47
+#: \views\collections\view.ctp:101
+#: \views\countries\admin_index.ctp:63
+#: \views\countries\admin_view.ctp:121
+#: \views\countries\index.ctp:63
+#: \views\countries\view.ctp:121
+#: \views\crystal_systems\admin_index.ctp:51
+#: \views\crystal_systems\admin_view.ctp:90
+#: \views\crystal_systems\index.ctp:51
+#: \views\crystal_systems\view.ctp:90
+#: \views\danas\admin_index.ctp:51
+#: \views\danas\admin_view.ctp:90
+#: \views\danas\index.ctp:51
+#: \views\danas\view.ctp:90
+#: \views\estimations\admin_index.ctp:47
+#: \views\estimations\admin_view.ctp:101
+#: \views\estimations\index.ctp:47
+#: \views\estimations\view.ctp:101
+#: \views\id_histories\admin_index.ctp:51
+#: \views\id_histories\index.ctp:51
+#: \views\minerals\admin_index.ctp:67
+#: \views\minerals\index.ctp:67
+#: \views\notes\admin_index.ctp:55
+#: \views\notes\index.ctp:55
+#: \views\samples\admin_index.ctp:99
+#: \views\samples\admin_view.ctp:198;252
+#: \views\samples\index.ctp:99
+#: \views\samples\view.ctp:198;252
+msgid "View"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\index.ctp:79
+#: \views\collections\admin_index.ctp:56
+#: \views\collections\index.ctp:56
+#: \views\countries\admin_index.ctp:72
+#: \views\countries\index.ctp:72
+#: \views\crystal_systems\admin_index.ctp:60
+#: \views\crystal_systems\index.ctp:60
+#: \views\danas\admin_index.ctp:60
+#: \views\danas\index.ctp:60
+#: \views\estimations\admin_index.ctp:56
+#: \views\estimations\index.ctp:56
+#: \views\id_histories\admin_index.ctp:60
+#: \views\id_histories\index.ctp:60
+#: \views\minerals\admin_index.ctp:76
+#: \views\minerals\index.ctp:76
+#: \views\notes\admin_index.ctp:64
+#: \views\notes\index.ctp:64
+#: \views\samples\admin_index.ctp:108
+#: \views\samples\index.ctp:108
+msgid "previous"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\index.ctp:81
+#: \views\collections\admin_index.ctp:58
+#: \views\collections\index.ctp:58
+#: \views\countries\admin_index.ctp:74
+#: \views\countries\index.ctp:74
+#: \views\crystal_systems\admin_index.ctp:62
+#: \views\crystal_systems\index.ctp:62
+#: \views\danas\admin_index.ctp:62
+#: \views\danas\index.ctp:62
+#: \views\estimations\admin_index.ctp:58
+#: \views\estimations\index.ctp:58
+#: \views\id_histories\admin_index.ctp:62
+#: \views\id_histories\index.ctp:62
+#: \views\minerals\admin_index.ctp:78
+#: \views\minerals\index.ctp:78
+#: \views\notes\admin_index.ctp:66
+#: \views\notes\index.ctp:66
+#: \views\samples\admin_index.ctp:110
+#: \views\samples\index.ctp:110
+msgid "next"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\view.ctp:28
+msgid "View %s"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\view.ctp:59;100
+msgid "Edit %s"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\view.ctp:60
+msgid "Delete %s"
+msgstr ""
+
+#: \cake\libs\view\scaffolds\view.ctp:81;120
+msgid "Related %s"
+msgstr ""
+
+#: \cake\tests\cases\libs\file.test.php:261
+msgid "[FileTest] Skipping %s because \"%s\" not writeable!"
+msgstr ""
+
+#: \cake\tests\test_app\views\pages\home.ctp:75
+msgid ""
+"To change the content of this page, edit: %s\n"
+"\t\tTo change its layout, edit: %s\n"
+"\t\tYou can also add some CSS styles for your pages at: %s"
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:36
+msgid "Your tmp directory is "
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:38
+msgid "writable."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:40
+msgid "NOT writable."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:49
+msgid "Your cache is "
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:51
+msgid "set up and initialized properly."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:54
+msgid " is being used to cache, to change this edit config/core.php "
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:64
+msgid "NOT working."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:67
+msgid "Edit: config/core.php to insure you have the newset version of this file and the variable $cakeCache set properly"
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:76
+msgid "Your database configuration file is "
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:79
+msgid "present."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:82
+msgid "NOT present."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:98
+msgid "Cake"
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:100
+msgid " is able to "
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:102
+msgid " is NOT able to "
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:104
+msgid "connect to the database."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:113
+msgid "To change the content of this page, create: /app/views/pages/home.ctp."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:114
+msgid "To change its layout, create: /app/views/layouts/default.ctp."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:115
+msgid "See the views section of the manual for more info."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:116
+msgid "You can also add some CSS styles for your pages at: app/webroot/css/."
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:121
+msgid "Cook up Web sites fast with CakePHP"
+msgstr ""
+
+#: \cake\tests\test_app\views\posts\test_nocache_tags.ctp:122
+msgid "Create an interactive production wiki using PHP"
+msgstr ""
+
+#: \controllers\collections_controller.php:14;28
+#: \controllers\backup\collections_controller.php:14;69
+msgid "Invalid Collection."
+msgstr ""
+
+#: \controllers\collections_controller.php:38;53
+#: \controllers\backup\collections_controller.php:24;39;79;94
+msgid "The Collection has been saved"
+msgstr ""
+
+#: \controllers\collections_controller.php:41;56
+#: \controllers\backup\collections_controller.php:27;42;82;97
+msgid "The Collection could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\collections_controller.php:48
+#: \controllers\backup\collections_controller.php:34;89
+msgid "Invalid Collection"
+msgstr ""
+
+#: \controllers\collections_controller.php:66
+#: \controllers\backup\collections_controller.php:52;107
+msgid "Invalid id for Collection"
+msgstr ""
+
+#: \controllers\collections_controller.php:70
+#: \controllers\backup\collections_controller.php:56;111
+msgid "Collection deleted"
+msgstr ""
+
+#: \controllers\countries_controller.php:14;28
+#: \controllers\backup\countries_controller.php:14;69
+msgid "Invalid Country."
+msgstr ""
+
+#: \controllers\countries_controller.php:38;53
+#: \controllers\backup\countries_controller.php:24;39;79;94
+msgid "The Country has been saved"
+msgstr ""
+
+#: \controllers\countries_controller.php:41;56
+#: \controllers\backup\countries_controller.php:27;42;82;97
+msgid "The Country could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\countries_controller.php:48
+#: \controllers\backup\countries_controller.php:34;89
+msgid "Invalid Country"
+msgstr ""
+
+#: \controllers\countries_controller.php:66
+#: \controllers\backup\countries_controller.php:52;107
+msgid "Invalid id for Country"
+msgstr ""
+
+#: \controllers\countries_controller.php:70
+#: \controllers\backup\countries_controller.php:56;111
+msgid "Country deleted"
+msgstr ""
+
+#: \controllers\crystal_systems_controller.php:14;28
+#: \controllers\backup\crystal_systems_controller.php:14;69
+msgid "Invalid CrystalSystem."
+msgstr ""
+
+#: \controllers\crystal_systems_controller.php:38;53
+#: \controllers\backup\crystal_systems_controller.php:24;39;79;94
+msgid "The CrystalSystem has been saved"
+msgstr ""
+
+#: \controllers\crystal_systems_controller.php:41;56
+#: \controllers\backup\crystal_systems_controller.php:27;42;82;97
+msgid "The CrystalSystem could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\crystal_systems_controller.php:48
+#: \controllers\backup\crystal_systems_controller.php:34;89
+msgid "Invalid CrystalSystem"
+msgstr ""
+
+#: \controllers\crystal_systems_controller.php:66
+#: \controllers\backup\crystal_systems_controller.php:52;107
+msgid "Invalid id for CrystalSystem"
+msgstr ""
+
+#: \controllers\crystal_systems_controller.php:70
+#: \controllers\backup\crystal_systems_controller.php:56;111
+msgid "CrystalSystem deleted"
+msgstr ""
+
+#: \controllers\danas_controller.php:14;27
+#: \controllers\backup\danas_controller.php:14;69
+msgid "Invalid Dana."
+msgstr ""
+
+#: \controllers\danas_controller.php:37;52
+#: \controllers\backup\danas_controller.php:24;39;79;94
+msgid "The Dana has been saved"
+msgstr ""
+
+#: \controllers\danas_controller.php:40;55
+#: \controllers\backup\danas_controller.php:27;42;82;97
+msgid "The Dana could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\danas_controller.php:47
+#: \controllers\backup\danas_controller.php:34;89
+msgid "Invalid Dana"
+msgstr ""
+
+#: \controllers\danas_controller.php:65
+#: \controllers\backup\danas_controller.php:52;107
+msgid "Invalid id for Dana"
+msgstr ""
+
+#: \controllers\danas_controller.php:69
+#: \controllers\backup\danas_controller.php:56;111
+msgid "Dana deleted"
+msgstr ""
+
+#: \controllers\estimations_controller.php:14;28
+#: \controllers\backup\estimations_controller.php:14;69
+msgid "Invalid Estimation."
+msgstr ""
+
+#: \controllers\estimations_controller.php:38;53
+#: \controllers\backup\estimations_controller.php:24;39;79;94
+msgid "The Estimation has been saved"
+msgstr ""
+
+#: \controllers\estimations_controller.php:41;56
+#: \controllers\backup\estimations_controller.php:27;42;82;97
+msgid "The Estimation could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\estimations_controller.php:48
+#: \controllers\backup\estimations_controller.php:34;89
+msgid "Invalid Estimation"
+msgstr ""
+
+#: \controllers\estimations_controller.php:66
+#: \controllers\backup\estimations_controller.php:52;107
+msgid "Invalid id for Estimation"
+msgstr ""
+
+#: \controllers\estimations_controller.php:70
+#: \controllers\backup\estimations_controller.php:56;111
+msgid "Estimation deleted"
+msgstr ""
+
+#: \controllers\id_histories_controller.php:14;28
+#: \controllers\backup\id_histories_controller.php:14;73
+msgid "Invalid IdHistory."
+msgstr ""
+
+#: \controllers\id_histories_controller.php:38;55
+#: \controllers\backup\id_histories_controller.php:24;41;83;100
+msgid "The IdHistory has been saved"
+msgstr ""
+
+#: \controllers\id_histories_controller.php:41;58
+#: \controllers\backup\id_histories_controller.php:27;44;86;103
+msgid "The IdHistory could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\id_histories_controller.php:50
+#: \controllers\backup\id_histories_controller.php:36;95
+msgid "Invalid IdHistory"
+msgstr ""
+
+#: \controllers\id_histories_controller.php:70
+#: \controllers\backup\id_histories_controller.php:56;115
+msgid "Invalid id for IdHistory"
+msgstr ""
+
+#: \controllers\id_histories_controller.php:74
+#: \controllers\backup\id_histories_controller.php:60;119
+msgid "IdHistory deleted"
+msgstr ""
+
+#: \controllers\minerals_controller.php:14;28
+#: \controllers\backup\minerals_controller.php:14;75
+msgid "Invalid Mineral."
+msgstr ""
+
+#: \controllers\minerals_controller.php:38;56
+#: \controllers\backup\minerals_controller.php:24;42;85;103
+msgid "The Mineral has been saved"
+msgstr ""
+
+#: \controllers\minerals_controller.php:41;59
+#: \controllers\backup\minerals_controller.php:27;45;88;106
+msgid "The Mineral could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\minerals_controller.php:51
+#: \controllers\backup\minerals_controller.php:37;98
+msgid "Invalid Mineral"
+msgstr ""
+
+#: \controllers\minerals_controller.php:72
+#: \controllers\backup\minerals_controller.php:58;119
+msgid "Invalid id for Mineral"
+msgstr ""
+
+#: \controllers\minerals_controller.php:76
+#: \controllers\backup\minerals_controller.php:62;123
+msgid "Mineral deleted"
+msgstr ""
+
+#: \controllers\notes_controller.php:14;28
+#: \controllers\backup\notes_controller.php:14;73
+msgid "Invalid Note."
+msgstr ""
+
+#: \controllers\notes_controller.php:38;55
+#: \controllers\backup\notes_controller.php:24;41;83;100
+msgid "The Note has been saved"
+msgstr ""
+
+#: \controllers\notes_controller.php:41;58
+#: \controllers\backup\notes_controller.php:27;44;86;103
+msgid "The Note could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\notes_controller.php:50
+#: \controllers\backup\notes_controller.php:36;95
+msgid "Invalid Note"
+msgstr ""
+
+#: \controllers\notes_controller.php:70
+#: \controllers\backup\notes_controller.php:56;115
+msgid "Invalid id for Note"
+msgstr ""
+
+#: \controllers\notes_controller.php:74
+#: \controllers\backup\notes_controller.php:60;119
+msgid "Note deleted"
+msgstr ""
+
+#: \controllers\samples_controller.php:14;28
+#: \controllers\backup\samples_controller.php:14;83
+msgid "Invalid Sample."
+msgstr ""
+
+#: \controllers\samples_controller.php:38;60
+#: \controllers\backup\samples_controller.php:24;46;93;115
+msgid "The Sample has been saved"
+msgstr ""
+
+#: \controllers\samples_controller.php:41;63
+#: \controllers\backup\samples_controller.php:27;49;96;118
+msgid "The Sample could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\samples_controller.php:55
+#: \controllers\backup\samples_controller.php:41;110
+msgid "Invalid Sample"
+msgstr ""
+
+#: \controllers\samples_controller.php:80
+#: \controllers\backup\samples_controller.php:66;135
+msgid "Invalid id for Sample"
+msgstr ""
+
+#: \controllers\samples_controller.php:84
+#: \controllers\backup\samples_controller.php:70;139
+msgid "Sample deleted"
+msgstr ""
+
+#: \controllers\users_controller.php:14
+#: \controllers\backup\users_controller.php:14;73
+msgid "Invalid User."
+msgstr ""
+
+#: \controllers\users_controller.php:24;41
+#: \controllers\backup\users_controller.php:24;41;83;100
+msgid "The User has been saved"
+msgstr ""
+
+#: \controllers\users_controller.php:27;44
+#: \controllers\backup\users_controller.php:27;44;86;103
+msgid "The User could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\users_controller.php:36
+#: \controllers\backup\users_controller.php:36;95
+msgid "Invalid User"
+msgstr ""
+
+#: \controllers\users_controller.php:56
+#: \controllers\backup\users_controller.php:56;115
+msgid "Invalid id for User"
+msgstr ""
+
+#: \controllers\users_controller.php:60
+#: \controllers\backup\users_controller.php:60;119
+msgid "User deleted"
+msgstr ""
+
+#: \views\collections\admin_add.ctp:4
+msgid "Add Collection"
+msgstr ""
+
+#: \views\collections\admin_add.ctp:15
+#: \views\collections\admin_edit.ctp:17
+#: \views\collections\admin_view.ctp:40
+#: \views\collections\view.ctp:40
+#: \views\samples\admin_add.ctp:36
+#: \views\samples\admin_edit.ctp:38
+#: \views\samples\admin_index.ctp:121
+#: \views\samples\admin_view.ctp:113
+#: \views\samples\index.ctp:121
+#: \views\samples\view.ctp:113
+msgid "List Collections"
+msgstr ""
+
+#: \views\collections\admin_add.ctp:16
+#: \views\collections\admin_edit.ctp:18
+#: \views\collections\admin_index.ctp:63
+#: \views\collections\admin_view.ctp:42
+#: \views\collections\index.ctp:63
+#: \views\collections\view.ctp:42
+#: \views\countries\admin_add.ctp:20
+#: \views\countries\admin_edit.ctp:22
+#: \views\countries\admin_index.ctp:79
+#: \views\countries\admin_view.ctp:62
+#: \views\countries\index.ctp:79
+#: \views\countries\view.ctp:62
+#: \views\estimations\admin_add.ctp:16
+#: \views\estimations\admin_edit.ctp:18
+#: \views\estimations\admin_index.ctp:63
+#: \views\estimations\admin_view.ctp:42
+#: \views\estimations\index.ctp:63
+#: \views\estimations\view.ctp:42
+#: \views\id_histories\admin_add.ctp:17
+#: \views\id_histories\admin_edit.ctp:19
+#: \views\id_histories\admin_index.ctp:67
+#: \views\id_histories\admin_view.ctp:47
+#: \views\id_histories\index.ctp:67
+#: \views\id_histories\view.ctp:47
+#: \views\notes\admin_add.ctp:18
+#: \views\notes\admin_edit.ctp:20
+#: \views\notes\admin_index.ctp:71
+#: \views\notes\admin_view.ctp:52
+#: \views\notes\index.ctp:71
+#: \views\notes\view.ctp:52
+#: \views\samples\admin_add.ctp:29
+#: \views\samples\admin_edit.ctp:31
+#: \views\samples\admin_view.ctp:105
+#: \views\samples\view.ctp:105
+msgid "List Samples"
+msgstr ""
+
+#: \views\collections\admin_add.ctp:17
+#: \views\collections\admin_edit.ctp:19
+#: \views\collections\admin_index.ctp:64
+#: \views\collections\admin_view.ctp:43;112
+#: \views\collections\index.ctp:64
+#: \views\collections\view.ctp:43;112
+#: \views\countries\admin_add.ctp:21
+#: \views\countries\admin_edit.ctp:23
+#: \views\countries\admin_index.ctp:80
+#: \views\countries\admin_view.ctp:63;132
+#: \views\countries\index.ctp:80
+#: \views\countries\view.ctp:63;132
+#: \views\estimations\admin_add.ctp:17
+#: \views\estimations\admin_edit.ctp:19
+#: \views\estimations\admin_index.ctp:64
+#: \views\estimations\admin_view.ctp:43;112
+#: \views\estimations\index.ctp:64
+#: \views\estimations\view.ctp:43;112
+#: \views\id_histories\admin_add.ctp:18
+#: \views\id_histories\admin_edit.ctp:20
+#: \views\id_histories\admin_index.ctp:68
+#: \views\id_histories\admin_view.ctp:48
+#: \views\id_histories\index.ctp:68
+#: \views\id_histories\view.ctp:48
+#: \views\notes\admin_add.ctp:19
+#: \views\notes\admin_edit.ctp:21
+#: \views\notes\admin_index.ctp:72
+#: \views\notes\admin_view.ctp:53
+#: \views\notes\index.ctp:72
+#: \views\notes\view.ctp:53
+#: \views\samples\admin_index.ctp:114
+#: \views\samples\admin_view.ctp:106
+#: \views\samples\index.ctp:114
+#: \views\samples\view.ctp:106
+msgid "New Sample"
+msgstr ""
+
+#: \views\collections\admin_edit.ctp:4
+#: \views\collections\admin_view.ctp:38
+#: \views\collections\view.ctp:38
+msgid "Edit Collection"
+msgstr ""
+
+#: \views\collections\admin_edit.ctp:16
+#: \views\collections\admin_index.ctp:49
+#: \views\collections\admin_view.ctp:39;103
+#: \views\collections\index.ctp:49
+#: \views\collections\view.ctp:39;103
+#: \views\countries\admin_edit.ctp:20
+#: \views\countries\admin_index.ctp:65
+#: \views\countries\admin_view.ctp:59;123
+#: \views\countries\index.ctp:65
+#: \views\countries\view.ctp:59;123
+#: \views\crystal_systems\admin_edit.ctp:17
+#: \views\crystal_systems\admin_index.ctp:53
+#: \views\crystal_systems\admin_view.ctp:44;92
+#: \views\crystal_systems\index.ctp:53
+#: \views\crystal_systems\view.ctp:44;92
+#: \views\danas\admin_edit.ctp:17
+#: \views\danas\admin_index.ctp:53
+#: \views\danas\admin_view.ctp:44;92
+#: \views\danas\index.ctp:53
+#: \views\danas\view.ctp:44;92
+#: \views\estimations\admin_edit.ctp:16
+#: \views\estimations\admin_index.ctp:49
+#: \views\estimations\admin_view.ctp:39;103
+#: \views\estimations\index.ctp:49
+#: \views\estimations\view.ctp:39;103
+#: \views\id_histories\admin_edit.ctp:17
+#: \views\id_histories\admin_index.ctp:53
+#: \views\id_histories\admin_view.ctp:44
+#: \views\id_histories\index.ctp:53
+#: \views\id_histories\view.ctp:44
+#: \views\minerals\admin_edit.ctp:21
+#: \views\minerals\admin_index.ctp:69
+#: \views\minerals\admin_view.ctp:64
+#: \views\minerals\index.ctp:69
+#: \views\minerals\view.ctp:64
+#: \views\notes\admin_edit.ctp:18
+#: \views\notes\admin_index.ctp:57
+#: \views\notes\admin_view.ctp:49
+#: \views\notes\index.ctp:57
+#: \views\notes\view.ctp:49
+#: \views\samples\admin_edit.ctp:30
+#: \views\samples\admin_index.ctp:101
+#: \views\samples\admin_view.ctp:104;200;254
+#: \views\samples\index.ctp:101
+#: \views\samples\view.ctp:104;200;254
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: \views\collections\admin_index.ctp:2
+#: \views\collections\index.ctp:2
+msgid "Collections"
+msgstr ""
+
+#: \views\collections\admin_index.ctp:6
+#: \views\collections\index.ctp:6
+#: \views\countries\admin_index.ctp:6
+#: \views\countries\index.ctp:6
+#: \views\crystal_systems\admin_index.ctp:6
+#: \views\crystal_systems\index.ctp:6
+#: \views\danas\admin_index.ctp:6
+#: \views\danas\index.ctp:6
+#: \views\estimations\admin_index.ctp:6
+#: \views\estimations\index.ctp:6
+#: \views\id_histories\admin_index.ctp:6
+#: \views\id_histories\index.ctp:6
+#: \views\minerals\admin_index.ctp:6
+#: \views\minerals\index.ctp:6
+#: \views\notes\admin_index.ctp:6
+#: \views\notes\index.ctp:6
+#: \views\samples\admin_index.ctp:6
+#: \views\samples\index.ctp:6
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: \views\collections\admin_index.ctp:62
+#: \views\collections\admin_view.ctp:41
+#: \views\collections\index.ctp:62
+#: \views\collections\view.ctp:41
+#: \views\samples\admin_add.ctp:37
+#: \views\samples\admin_edit.ctp:39
+#: \views\samples\admin_index.ctp:122
+#: \views\samples\admin_view.ctp:114
+#: \views\samples\index.ctp:122
+#: \views\samples\view.ctp:114
+msgid "New Collection"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:2
+#: \views\collections\view.ctp:2
+#: \views\samples\admin_view.ctp:34
+#: \views\samples\view.ctp:34
+msgid "Collection"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:4;51
+#: \views\collections\view.ctp:4;51
+#: \views\countries\admin_view.ctp:4;71
+#: \views\countries\view.ctp:4;71
+#: \views\crystal_systems\admin_view.ctp:4;56
+#: \views\crystal_systems\view.ctp:4;56
+#: \views\danas\admin_view.ctp:4;56
+#: \views\danas\view.ctp:4;56
+#: \views\estimations\admin_view.ctp:4;51
+#: \views\estimations\view.ctp:4;51
+#: \views\id_histories\admin_view.ctp:4
+#: \views\id_histories\view.ctp:4
+#: \views\minerals\admin_view.ctp:4
+#: \views\minerals\view.ctp:4
+#: \views\notes\admin_view.ctp:4
+#: \views\notes\view.ctp:4
+#: \views\samples\admin_view.ctp:4;127;172;218
+#: \views\samples\view.ctp:4;127;172;218
+msgid "Id"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:9;52
+#: \views\collections\view.ctp:9;52
+#: \views\countries\admin_view.ctp:72
+#: \views\countries\view.ctp:72
+#: \views\estimations\admin_view.ctp:9;52
+#: \views\estimations\view.ctp:9;52
+#: \views\samples\admin_view.ctp:9
+#: \views\samples\view.ctp:9
+msgid "Name"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:14;66
+#: \views\collections\view.ctp:14;66
+#: \views\countries\admin_view.ctp:34;86
+#: \views\countries\view.ctp:34;86
+#: \views\crystal_systems\admin_view.ctp:19;63
+#: \views\crystal_systems\view.ctp:19;63
+#: \views\danas\admin_view.ctp:19;63
+#: \views\danas\view.ctp:19;63
+#: \views\estimations\admin_view.ctp:14;66
+#: \views\estimations\view.ctp:14;66
+#: \views\id_histories\admin_view.ctp:19
+#: \views\id_histories\view.ctp:19
+#: \views\minerals\admin_view.ctp:39
+#: \views\minerals\view.ctp:39
+#: \views\notes\admin_view.ctp:24
+#: \views\notes\view.ctp:24
+#: \views\samples\admin_view.ctp:79;143;175;225
+#: \views\samples\view.ctp:79;143;175;225
+msgid "Created"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:19;67
+#: \views\collections\view.ctp:19;67
+#: \views\countries\admin_view.ctp:39;87
+#: \views\countries\view.ctp:39;87
+#: \views\crystal_systems\admin_view.ctp:24;64
+#: \views\crystal_systems\view.ctp:24;64
+#: \views\danas\admin_view.ctp:24;64
+#: \views\danas\view.ctp:24;64
+#: \views\estimations\admin_view.ctp:19;67
+#: \views\estimations\view.ctp:19;67
+#: \views\id_histories\admin_view.ctp:24
+#: \views\id_histories\view.ctp:24
+#: \views\minerals\admin_view.ctp:44
+#: \views\minerals\view.ctp:44
+#: \views\notes\admin_view.ctp:29
+#: \views\notes\view.ctp:29
+#: \views\samples\admin_view.ctp:84;147;176;226
+#: \views\samples\view.ctp:84;147;176;226
+msgid "Modified"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:24;68
+#: \views\collections\view.ctp:24;68
+#: \views\countries\admin_view.ctp:44;88
+#: \views\countries\view.ctp:44;88
+#: \views\crystal_systems\admin_view.ctp:29;65
+#: \views\crystal_systems\view.ctp:29;65
+#: \views\danas\admin_view.ctp:29;65
+#: \views\danas\view.ctp:29;65
+#: \views\estimations\admin_view.ctp:24;68
+#: \views\estimations\view.ctp:24;68
+#: \views\id_histories\admin_view.ctp:29
+#: \views\id_histories\view.ctp:29
+#: \views\minerals\admin_view.ctp:49
+#: \views\minerals\view.ctp:49
+#: \views\notes\admin_view.ctp:34
+#: \views\notes\view.ctp:34
+#: \views\samples\admin_view.ctp:89;151;177;227
+#: \views\samples\view.ctp:89;151;177;227
+msgid "Deleted"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:29;69
+#: \views\collections\view.ctp:29;69
+#: \views\countries\admin_view.ctp:49;89
+#: \views\countries\view.ctp:49;89
+#: \views\crystal_systems\admin_view.ctp:34;66
+#: \views\crystal_systems\view.ctp:34;66
+#: \views\danas\admin_view.ctp:34;66
+#: \views\danas\view.ctp:34;66
+#: \views\estimations\admin_view.ctp:29;69
+#: \views\estimations\view.ctp:29;69
+#: \views\id_histories\admin_view.ctp:34
+#: \views\id_histories\view.ctp:34
+#: \views\minerals\admin_view.ctp:54
+#: \views\minerals\view.ctp:54
+#: \views\notes\admin_view.ctp:39
+#: \views\notes\view.ctp:39
+#: \views\samples\admin_view.ctp:155;178;228
+#: \views\samples\view.ctp:155;178;228
+msgid "User Id"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:39
+#: \views\collections\view.ctp:39
+msgid "Delete Collection"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:47
+#: \views\collections\view.ctp:47
+#: \views\countries\admin_view.ctp:67
+#: \views\countries\view.ctp:67
+#: \views\estimations\admin_view.ctp:47
+#: \views\estimations\view.ctp:47
+msgid "Related Samples"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:53
+#: \views\collections\view.ctp:53
+#: \views\countries\admin_view.ctp:73
+#: \views\countries\view.ctp:73
+#: \views\estimations\admin_view.ctp:53
+#: \views\estimations\view.ctp:53
+#: \views\samples\admin_view.ctp:14
+#: \views\samples\view.ctp:14
+msgid "Origin"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:54
+#: \views\collections\view.ctp:54
+#: \views\countries\admin_view.ctp:74
+#: \views\countries\view.ctp:74
+#: \views\estimations\admin_view.ctp:54
+#: \views\estimations\view.ctp:54
+msgid "Country Id"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:55
+#: \views\collections\view.ctp:55
+#: \views\countries\admin_view.ctp:75
+#: \views\countries\view.ctp:75
+#: \views\estimations\admin_view.ctp:55
+#: \views\estimations\view.ctp:55
+msgid "Mineral Id"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:56
+#: \views\collections\view.ctp:56
+#: \views\countries\admin_view.ctp:76
+#: \views\countries\view.ctp:76
+#: \views\estimations\admin_view.ctp:56
+#: \views\estimations\view.ctp:56
+#: \views\samples\admin_view.ctp:29
+#: \views\samples\view.ctp:29
+msgid "Donation"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:57
+#: \views\collections\view.ctp:57
+#: \views\countries\admin_view.ctp:77
+#: \views\countries\view.ctp:77
+#: \views\estimations\admin_view.ctp:57
+#: \views\estimations\view.ctp:57
+msgid "Collection Id"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:58
+#: \views\collections\view.ctp:58
+#: \views\countries\admin_view.ctp:78
+#: \views\countries\view.ctp:78
+#: \views\estimations\admin_view.ctp:58
+#: \views\estimations\view.ctp:58
+#: \views\samples\admin_view.ctp:39
+#: \views\samples\view.ctp:39
+msgid "Acquisition Date"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:59
+#: \views\collections\view.ctp:59
+#: \views\countries\admin_view.ctp:79
+#: \views\countries\view.ctp:79
+#: \views\estimations\admin_view.ctp:59
+#: \views\estimations\view.ctp:59
+#: \views\samples\admin_view.ctp:44
+#: \views\samples\view.ctp:44
+msgid "Rock"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:60
+#: \views\collections\view.ctp:60
+#: \views\countries\admin_view.ctp:80
+#: \views\countries\view.ctp:80
+#: \views\estimations\admin_view.ctp:60
+#: \views\estimations\view.ctp:60
+#: \views\samples\admin_view.ctp:49
+#: \views\samples\view.ctp:49
+msgid "Storage Place"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:61
+#: \views\collections\view.ctp:61
+#: \views\countries\admin_view.ctp:81
+#: \views\countries\view.ctp:81
+#: \views\estimations\admin_view.ctp:61
+#: \views\estimations\view.ctp:61
+#: \views\samples\admin_view.ctp:54
+#: \views\samples\view.ctp:54
+msgid "Inexhibition"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:62
+#: \views\collections\view.ctp:62
+#: \views\countries\admin_view.ctp:82
+#: \views\countries\view.ctp:82
+#: \views\estimations\admin_view.ctp:62
+#: \views\estimations\view.ctp:62
+msgid "Estimation Id"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:63
+#: \views\collections\view.ctp:63
+#: \views\countries\admin_view.ctp:83
+#: \views\countries\view.ctp:83
+#: \views\estimations\admin_view.ctp:63
+#: \views\estimations\view.ctp:63
+#: \views\samples\admin_view.ctp:64
+#: \views\samples\view.ctp:64
+msgid "Length"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:64
+#: \views\collections\view.ctp:64
+#: \views\countries\admin_view.ctp:84
+#: \views\countries\view.ctp:84
+#: \views\estimations\admin_view.ctp:64
+#: \views\estimations\view.ctp:64
+#: \views\samples\admin_view.ctp:69
+#: \views\samples\view.ctp:69
+msgid "Width"
+msgstr ""
+
+#: \views\collections\admin_view.ctp:65
+#: \views\collections\view.ctp:65
+#: \views\countries\admin_view.ctp:85
+#: \views\countries\view.ctp:85
+#: \views\estimations\admin_view.ctp:65
+#: \views\estimations\view.ctp:65
+#: \views\samples\admin_view.ctp:74
+#: \views\samples\view.ctp:74
+msgid "Height"
+msgstr ""
+
+#: \views\countries\admin_add.ctp:4
+msgid "Add Country"
+msgstr ""
+
+#: \views\countries\admin_add.ctp:19
+#: \views\countries\admin_edit.ctp:21
+#: \views\countries\admin_view.ctp:60
+#: \views\countries\view.ctp:60
+#: \views\samples\admin_add.ctp:32
+#: \views\samples\admin_edit.ctp:34
+#: \views\samples\admin_index.ctp:117
+#: \views\samples\admin_view.ctp:109
+#: \views\samples\index.ctp:117
+#: \views\samples\view.ctp:109
+msgid "List Countries"
+msgstr ""
+
+#: \views\countries\admin_edit.ctp:4
+#: \views\countries\admin_view.ctp:58
+#: \views\countries\view.ctp:58
+msgid "Edit Country"
+msgstr ""
+
+#: \views\countries\admin_index.ctp:2
+#: \views\countries\index.ctp:2
+msgid "Countries"
+msgstr ""
+
+#: \views\countries\admin_index.ctp:78
+#: \views\countries\admin_view.ctp:61
+#: \views\countries\index.ctp:78
+#: \views\countries\view.ctp:61
+#: \views\samples\admin_add.ctp:33
+#: \views\samples\admin_edit.ctp:35
+#: \views\samples\admin_index.ctp:118
+#: \views\samples\admin_view.ctp:110
+#: \views\samples\index.ctp:118
+#: \views\samples\view.ctp:110
+msgid "New Country"
+msgstr ""
+
+#: \views\countries\admin_view.ctp:2
+#: \views\countries\view.ctp:2
+#: \views\samples\admin_view.ctp:19
+#: \views\samples\view.ctp:19
+msgid "Country"
+msgstr ""
+
+#: \views\countries\admin_view.ctp:9
+#: \views\countries\view.ctp:9
+msgid "Iso"
+msgstr ""
+
+#: \views\countries\admin_view.ctp:14
+#: \views\countries\view.ctp:14
+#: \views\crystal_systems\admin_view.ctp:9;57
+#: \views\crystal_systems\view.ctp:9;57
+#: \views\danas\admin_view.ctp:9;57
+#: \views\danas\view.ctp:9;57
+#: \views\minerals\admin_view.ctp:9
+#: \views\minerals\view.ctp:9
+#: \views\samples\admin_view.ctp:219
+#: \views\samples\view.ctp:219
+msgid "Name Gr"
+msgstr ""
+
+#: \views\countries\admin_view.ctp:19
+#: \views\countries\view.ctp:19
+#: \views\crystal_systems\admin_view.ctp:14;58
+#: \views\crystal_systems\view.ctp:14;58
+#: \views\danas\admin_view.ctp:14;58
+#: \views\danas\view.ctp:14;58
+#: \views\minerals\admin_view.ctp:14
+#: \views\minerals\view.ctp:14
+#: \views\samples\admin_view.ctp:220
+#: \views\samples\view.ctp:220
+msgid "Name Eng"
+msgstr ""
+
+#: \views\countries\admin_view.ctp:24
+#: \views\countries\view.ctp:24
+msgid "Other Name Gr"
+msgstr ""
+
+#: \views\countries\admin_view.ctp:29
+#: \views\countries\view.ctp:29
+msgid "Other Name Eng"
+msgstr ""
+
+#: \views\countries\admin_view.ctp:59
+#: \views\countries\view.ctp:59
+msgid "Delete Country"
+msgstr ""
+
+#: \views\crystal_systems\admin_add.ctp:4
+msgid "Add CrystalSystem"
+msgstr ""
+
+#: \views\crystal_systems\admin_add.ctp:16
+#: \views\crystal_systems\admin_edit.ctp:18
+#: \views\crystal_systems\admin_view.ctp:45
+#: \views\crystal_systems\view.ctp:45
+msgid "List CrystalSystems"
+msgstr ""
+
+#: \views\crystal_systems\admin_add.ctp:17
+#: \views\crystal_systems\admin_edit.ctp:19
+#: \views\crystal_systems\admin_index.ctp:67
+#: \views\crystal_systems\admin_view.ctp:47
+#: \views\crystal_systems\index.ctp:67
+#: \views\crystal_systems\view.ctp:47
+#: \views\danas\admin_add.ctp:17
+#: \views\danas\admin_edit.ctp:19
+#: \views\danas\admin_index.ctp:67
+#: \views\danas\admin_view.ctp:47
+#: \views\danas\index.ctp:67
+#: \views\danas\view.ctp:47
+#: \views\minerals\admin_add.ctp:20
+#: \views\minerals\admin_edit.ctp:22
+#: \views\minerals\admin_view.ctp:65
+#: \views\minerals\view.ctp:65
+#: \views\samples\admin_add.ctp:34
+#: \views\samples\admin_edit.ctp:36
+#: \views\samples\admin_index.ctp:119
+#: \views\samples\admin_view.ctp:111
+#: \views\samples\index.ctp:119
+#: \views\samples\view.ctp:111
+msgid "List Minerals"
+msgstr ""
+
+#: \views\crystal_systems\admin_add.ctp:18
+#: \views\crystal_systems\admin_edit.ctp:20
+#: \views\crystal_systems\admin_index.ctp:68
+#: \views\crystal_systems\admin_view.ctp:48;101
+#: \views\crystal_systems\index.ctp:68
+#: \views\crystal_systems\view.ctp:48;101
+#: \views\danas\admin_add.ctp:18
+#: \views\danas\admin_edit.ctp:20
+#: \views\danas\admin_index.ctp:68
+#: \views\danas\admin_view.ctp:48;101
+#: \views\danas\index.ctp:68
+#: \views\danas\view.ctp:48;101
+#: \views\minerals\admin_index.ctp:82
+#: \views\minerals\admin_view.ctp:66
+#: \views\minerals\index.ctp:82
+#: \views\minerals\view.ctp:66
+#: \views\samples\admin_add.ctp:35
+#: \views\samples\admin_edit.ctp:37
+#: \views\samples\admin_index.ctp:120
+#: \views\samples\admin_view.ctp:112;263
+#: \views\samples\index.ctp:120
+#: \views\samples\view.ctp:112;263
+msgid "New Mineral"
+msgstr ""
+
+#: \views\crystal_systems\admin_edit.ctp:4
+#: \views\crystal_systems\admin_view.ctp:43
+#: \views\crystal_systems\view.ctp:43
+msgid "Edit CrystalSystem"
+msgstr ""
+
+#: \views\crystal_systems\admin_index.ctp:2
+#: \views\crystal_systems\index.ctp:2
+msgid "CrystalSystems"
+msgstr ""
+
+#: \views\crystal_systems\admin_index.ctp:66
+#: \views\crystal_systems\admin_view.ctp:46
+#: \views\crystal_systems\index.ctp:66
+#: \views\crystal_systems\view.ctp:46
+msgid "New CrystalSystem"
+msgstr ""
+
+#: \views\crystal_systems\admin_view.ctp:2
+#: \views\crystal_systems\view.ctp:2
+msgid "CrystalSystem"
+msgstr ""
+
+#: \views\crystal_systems\admin_view.ctp:44
+#: \views\crystal_systems\view.ctp:44
+msgid "Delete CrystalSystem"
+msgstr ""
+
+#: \views\crystal_systems\admin_view.ctp:52
+#: \views\crystal_systems\view.ctp:52
+#: \views\danas\admin_view.ctp:52
+#: \views\danas\view.ctp:52
+#: \views\samples\admin_view.ctp:214
+#: \views\samples\view.ctp:214
+msgid "Related Minerals"
+msgstr ""
+
+#: \views\crystal_systems\admin_view.ctp:59
+#: \views\crystal_systems\view.ctp:59
+#: \views\danas\admin_view.ctp:59
+#: \views\danas\view.ctp:59
+#: \views\minerals\admin_view.ctp:19
+#: \views\minerals\view.ctp:19
+#: \views\samples\admin_view.ctp:221
+#: \views\samples\view.ctp:221
+msgid "Chem Formula"
+msgstr ""
+
+#: \views\crystal_systems\admin_view.ctp:60
+#: \views\crystal_systems\view.ctp:60
+#: \views\danas\admin_view.ctp:60
+#: \views\danas\view.ctp:60
+#: \views\samples\admin_view.ctp:222
+#: \views\samples\view.ctp:222
+msgid "Crystal System Id"
+msgstr ""
+
+#: \views\crystal_systems\admin_view.ctp:61
+#: \views\crystal_systems\view.ctp:61
+#: \views\danas\admin_view.ctp:61
+#: \views\danas\view.ctp:61
+#: \views\minerals\admin_view.ctp:29
+#: \views\minerals\view.ctp:29
+#: \views\samples\admin_view.ctp:223
+#: \views\samples\view.ctp:223
+msgid "Dana Code"
+msgstr ""
+
+#: \views\crystal_systems\admin_view.ctp:62
+#: \views\crystal_systems\view.ctp:62
+#: \views\danas\admin_view.ctp:62
+#: \views\danas\view.ctp:62
+#: \views\samples\admin_view.ctp:224
+#: \views\samples\view.ctp:224
+msgid "Dana Id"
+msgstr ""
+
+#: \views\danas\admin_add.ctp:4
+msgid "Add Dana"
+msgstr ""
+
+#: \views\danas\admin_add.ctp:16
+#: \views\danas\admin_edit.ctp:18
+#: \views\danas\admin_view.ctp:45
+#: \views\danas\view.ctp:45
+#: \views\minerals\admin_add.ctp:23
+#: \views\minerals\admin_edit.ctp:25
+#: \views\minerals\admin_index.ctp:85
+#: \views\minerals\admin_view.ctp:69
+#: \views\minerals\index.ctp:85
+#: \views\minerals\view.ctp:69
+msgid "List Danas"
+msgstr ""
+
+#: \views\danas\admin_edit.ctp:4
+#: \views\danas\admin_view.ctp:43
+#: \views\danas\view.ctp:43
+msgid "Edit Dana"
+msgstr ""
+
+#: \views\danas\admin_index.ctp:2
+#: \views\danas\index.ctp:2
+msgid "Danas"
+msgstr ""
+
+#: \views\danas\admin_index.ctp:66
+#: \views\danas\admin_view.ctp:46
+#: \views\danas\index.ctp:66
+#: \views\danas\view.ctp:46
+#: \views\minerals\admin_add.ctp:24
+#: \views\minerals\admin_edit.ctp:26
+#: \views\minerals\admin_index.ctp:86
+#: \views\minerals\admin_view.ctp:70
+#: \views\minerals\index.ctp:86
+#: \views\minerals\view.ctp:70
+msgid "New Dana"
+msgstr ""
+
+#: \views\danas\admin_view.ctp:2
+#: \views\danas\view.ctp:2
+#: \views\minerals\admin_view.ctp:34
+#: \views\minerals\view.ctp:34
+msgid "Dana"
+msgstr ""
+
+#: \views\danas\admin_view.ctp:44
+#: \views\danas\view.ctp:44
+msgid "Delete Dana"
+msgstr ""
+
+#: \views\estimations\admin_add.ctp:4
+msgid "Add Estimation"
+msgstr ""
+
+#: \views\estimations\admin_add.ctp:15
+#: \views\estimations\admin_edit.ctp:17
+#: \views\estimations\admin_view.ctp:40
+#: \views\estimations\view.ctp:40
+#: \views\samples\admin_add.ctp:38
+#: \views\samples\admin_edit.ctp:40
+#: \views\samples\admin_index.ctp:123
+#: \views\samples\admin_view.ctp:115
+#: \views\samples\index.ctp:123
+#: \views\samples\view.ctp:115
+msgid "List Estimations"
+msgstr ""
+
+#: \views\estimations\admin_edit.ctp:4
+#: \views\estimations\admin_view.ctp:38
+#: \views\estimations\view.ctp:38
+msgid "Edit Estimation"
+msgstr ""
+
+#: \views\estimations\admin_index.ctp:2
+#: \views\estimations\index.ctp:2
+msgid "Estimations"
+msgstr ""
+
+#: \views\estimations\admin_index.ctp:62
+#: \views\estimations\admin_view.ctp:41
+#: \views\estimations\index.ctp:62
+#: \views\estimations\view.ctp:41
+#: \views\samples\admin_add.ctp:39
+#: \views\samples\admin_edit.ctp:41
+#: \views\samples\admin_index.ctp:124
+#: \views\samples\admin_view.ctp:116
+#: \views\samples\index.ctp:124
+#: \views\samples\view.ctp:116
+msgid "New Estimation"
+msgstr ""
+
+#: \views\estimations\admin_view.ctp:2
+#: \views\estimations\view.ctp:2
+#: \views\samples\admin_view.ctp:59
+#: \views\samples\view.ctp:59
+msgid "Estimation"
+msgstr ""
+
+#: \views\estimations\admin_view.ctp:39
+#: \views\estimations\view.ctp:39
+msgid "Delete Estimation"
+msgstr ""
+
+#: \views\id_histories\admin_add.ctp:4
+msgid "Add IdHistory"
+msgstr ""
+
+#: \views\id_histories\admin_add.ctp:16
+#: \views\id_histories\admin_edit.ctp:18
+#: \views\id_histories\admin_view.ctp:45
+#: \views\id_histories\view.ctp:45
+msgid "List IdHistories"
+msgstr ""
+
+#: \views\id_histories\admin_edit.ctp:4
+#: \views\id_histories\admin_view.ctp:43
+#: \views\id_histories\view.ctp:43
+msgid "Edit IdHistory"
+msgstr ""
+
+#: \views\id_histories\admin_index.ctp:2
+#: \views\id_histories\index.ctp:2
+msgid "IdHistories"
+msgstr ""
+
+#: \views\id_histories\admin_index.ctp:66
+#: \views\id_histories\admin_view.ctp:46
+#: \views\id_histories\index.ctp:66
+#: \views\id_histories\view.ctp:46
+msgid "New IdHistory"
+msgstr ""
+
+#: \views\id_histories\admin_view.ctp:2
+#: \views\id_histories\view.ctp:2
+msgid "IdHistory"
+msgstr ""
+
+#: \views\id_histories\admin_view.ctp:9
+#: \views\id_histories\view.ctp:9
+#: \views\notes\admin_view.ctp:9
+#: \views\notes\view.ctp:9
+#: \views\samples\admin_view.ctp:2
+#: \views\samples\view.ctp:2
+msgid "Sample"
+msgstr ""
+
+#: \views\id_histories\admin_view.ctp:14
+#: \views\id_histories\view.ctp:14
+#: \views\samples\admin_view.ctp:174
+#: \views\samples\view.ctp:174
+msgid "Old Code"
+msgstr ""
+
+#: \views\id_histories\admin_view.ctp:44
+#: \views\id_histories\view.ctp:44
+msgid "Delete IdHistory"
+msgstr ""
+
+#: \views\minerals\admin_add.ctp:4
+msgid "Add Mineral"
+msgstr ""
+
+#: \views\minerals\admin_add.ctp:21
+#: \views\minerals\admin_edit.ctp:23
+#: \views\minerals\admin_index.ctp:83
+#: \views\minerals\admin_view.ctp:67
+#: \views\minerals\index.ctp:83
+#: \views\minerals\view.ctp:67
+msgid "List Crystal Systems"
+msgstr ""
+
+#: \views\minerals\admin_add.ctp:22
+#: \views\minerals\admin_edit.ctp:24
+#: \views\minerals\admin_index.ctp:84
+#: \views\minerals\admin_view.ctp:68
+#: \views\minerals\index.ctp:84
+#: \views\minerals\view.ctp:68
+msgid "New Crystal System"
+msgstr ""
+
+#: \views\minerals\admin_edit.ctp:4
+#: \views\minerals\admin_view.ctp:63
+#: \views\minerals\view.ctp:63
+msgid "Edit Mineral"
+msgstr ""
+
+#: \views\minerals\admin_index.ctp:2
+#: \views\minerals\index.ctp:2
+msgid "Minerals"
+msgstr ""
+
+#: \views\minerals\admin_view.ctp:2
+#: \views\minerals\view.ctp:2
+#: \views\samples\admin_view.ctp:24
+#: \views\samples\view.ctp:24
+msgid "Mineral"
+msgstr ""
+
+#: \views\minerals\admin_view.ctp:24
+#: \views\minerals\view.ctp:24
+msgid "Crystal System"
+msgstr ""
+
+#: \views\minerals\admin_view.ctp:64
+#: \views\minerals\view.ctp:64
+msgid "Delete Mineral"
+msgstr ""
+
+#: \views\notes\admin_add.ctp:4
+msgid "Add Note"
+msgstr ""
+
+#: \views\notes\admin_add.ctp:17
+#: \views\notes\admin_edit.ctp:19
+#: \views\notes\admin_view.ctp:50
+#: \views\notes\view.ctp:50
+#: \views\samples\admin_add.ctp:40
+#: \views\samples\admin_edit.ctp:42
+#: \views\samples\admin_index.ctp:125
+#: \views\samples\admin_view.ctp:117
+#: \views\samples\index.ctp:125
+#: \views\samples\view.ctp:117
+msgid "List Notes"
+msgstr ""
+
+#: \views\notes\admin_edit.ctp:4
+#: \views\notes\admin_view.ctp:48
+#: \views\notes\view.ctp:48
+#: \views\samples\admin_view.ctp:163
+#: \views\samples\view.ctp:163
+msgid "Edit Note"
+msgstr ""
+
+#: \views\notes\admin_index.ctp:2
+#: \views\notes\index.ctp:2
+msgid "Notes"
+msgstr ""
+
+#: \views\notes\admin_index.ctp:70
+#: \views\notes\admin_view.ctp:51
+#: \views\notes\index.ctp:70
+#: \views\notes\view.ctp:51
+#: \views\samples\admin_add.ctp:41
+#: \views\samples\admin_edit.ctp:43
+#: \views\samples\admin_index.ctp:126
+#: \views\samples\admin_view.ctp:118
+#: \views\samples\index.ctp:126
+#: \views\samples\view.ctp:118
+msgid "New Note"
+msgstr ""
+
+#: \views\notes\admin_view.ctp:2
+#: \views\notes\view.ctp:2
+msgid "Note"
+msgstr ""
+
+#: \views\notes\admin_view.ctp:14
+#: \views\notes\view.ctp:14
+#: \views\samples\admin_view.ctp:135
+#: \views\samples\view.ctp:135
+msgid "Comment Gr"
+msgstr ""
+
+#: \views\notes\admin_view.ctp:19
+#: \views\notes\view.ctp:19
+#: \views\samples\admin_view.ctp:139
+#: \views\samples\view.ctp:139
+msgid "Comment Eng"
+msgstr ""
+
+#: \views\notes\admin_view.ctp:49
+#: \views\notes\view.ctp:49
+msgid "Delete Note"
+msgstr ""
+
+#: \views\pages\home.ctp:75
+msgid ""
+"To change the content of this page, edit: %s\r\n"
+"\t\tTo change its layout, edit: %s\r\n"
+"\t\tYou can also add some CSS styles for your pages at: %s"
+msgstr ""
+
+#: \views\samples\admin_add.ctp:4
+msgid "Add Sample"
+msgstr ""
+
+#: \views\samples\admin_add.ctp:30
+#: \views\samples\admin_edit.ctp:32
+#: \views\samples\admin_index.ctp:115
+#: \views\samples\admin_view.ctp:107
+#: \views\samples\index.ctp:115
+#: \views\samples\view.ctp:107
+msgid "List Users"
+msgstr ""
+
+#: \views\samples\admin_add.ctp:31
+#: \views\samples\admin_edit.ctp:33
+#: \views\samples\admin_index.ctp:116
+#: \views\samples\admin_view.ctp:108
+#: \views\samples\index.ctp:116
+#: \views\samples\view.ctp:108
+msgid "New User"
+msgstr ""
+
+#: \views\samples\admin_add.ctp:42
+#: \views\samples\admin_edit.ctp:44
+#: \views\samples\admin_index.ctp:127
+#: \views\samples\admin_view.ctp:119
+#: \views\samples\index.ctp:127
+#: \views\samples\view.ctp:119
+msgid "List Id Histories"
+msgstr ""
+
+#: \views\samples\admin_add.ctp:43
+#: \views\samples\admin_edit.ctp:45
+#: \views\samples\admin_index.ctp:128
+#: \views\samples\admin_view.ctp:120;209
+#: \views\samples\index.ctp:128
+#: \views\samples\view.ctp:120;209
+msgid "New Id History"
+msgstr ""
+
+#: \views\samples\admin_edit.ctp:4
+#: \views\samples\admin_view.ctp:103
+#: \views\samples\view.ctp:103
+msgid "Edit Sample"
+msgstr ""
+
+#: \views\samples\admin_index.ctp:2
+#: \views\samples\index.ctp:2
+msgid "Samples"
+msgstr ""
+
+#: \views\samples\admin_view.ctp:94
+#: \views\samples\view.ctp:94
+msgid "User"
+msgstr ""
+
+#: \views\samples\admin_view.ctp:104
+#: \views\samples\view.ctp:104
+msgid "Delete Sample"
+msgstr ""
+
+#: \views\samples\admin_view.ctp:124
+#: \views\samples\view.ctp:124
+msgid "Related Notes"
+msgstr ""
+
+#: \views\samples\admin_view.ctp:131;173
+#: \views\samples\view.ctp:131;173
+msgid "Sample Id"
+msgstr ""
+
+#: \views\samples\admin_view.ctp:168
+#: \views\samples\view.ctp:168
+msgid "Related Id Histories"
+msgstr ""
+

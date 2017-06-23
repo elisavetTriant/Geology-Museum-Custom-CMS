@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*initialize*/
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, div {margin: 0;padding: 0;border: 0;text-align:left;}
+
+h1,h2,h3,h4,h5,h6,p,blockquote,form,label,ul,ol,dl,fieldset,address{margin:0.4em 0;}
+
+h1,h2,h3,h4,h5,h6 {font-weight:bold; font-family:Verdana ,Arial, Helvetica, sans-serif}
+
+ul, ol{font-size:1em; margin:1.2em 0 1.2em 3em;}
+
+h1{font-size:1.3em;}
+
+h2{font-size:1.2em;}
+
+h3{font-size:1.1em;}
+
+h4{font-size:1em;}
+
+h5{font-size:1em;}
+
+h6{font-size:1em;}
+/*end initialize*/
+
+#main-content h1,  #main-content h2, #main-content h3, #main-content h4{display: block; color:#6da9a2; background-color:inherit; padding:0.3em 0;}
+#main-content h2, #main-content h4{color:#e44a20;}
+#main-content ol {line-height:130%; margin-top:0px; margin-bottom:0px; list-style-image:none;}
+#main-content ul { list-style-type:disc; list-style-position:outside; list-style-image:url("../img/list-bullet.gif"); line-height:130%; margin-top:0px; margin-bottom:0px;}
+#main-content li{margin:0.8em 0;}
+#main-content  ul ul { list-style-type:circle; list-style-image:none;}
+#main-content ul ul ul  {list-style-type:square; list-style-image:none;}
+#main-content  ul ol, #main-content  ul ul ol, #main-content  ul ul ul ol {list-style-type:decimal}
+p {font-size:1em; background-color:inherit; margin:1.2em 0;}
+a, a:link {color:#3399cc; font-size:1em; font-weight:normal; text-decoration: none;}
+a:visited {color: #3399cc; font-size:1em; font-weight:normal; text-decoration:none;}
+a:hover {color: #2978a0; font-size:1em; font-weight:normal; text-decoration:underline; }
+
+#right_content h2{font-size:1em; padding-left:37px; background-color:#b5d3d0; color:#333333; font-weight:normal }
+#right_content ul{list-style:none}

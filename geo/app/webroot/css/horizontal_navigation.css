@@ -1,0 +1,33 @@
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+div#nav ul{
+margin: 0;
+padding: 0;
+float: left;
+font: bold 13px Verdana;
+width: 100%;
+overflow: hidden;
+margin-top: 7px;
+background: black url(../img/blockdefault.gif) center center repeat-x;
+}
+
+div#nav ul li{
+display: inline;
+}
+
+div#nav ul li a{
+float: left;
+color: white;
+padding: 9px 11px;
+text-decoration: none;
+border-right: 1px solid white;
+}
+
+div#nav ul li a:visited{
+color: white;
+}
+
+div#nav ul li a:hover, div#nav ul li#current a{
+color: black;
+background: transparent url(../img/blockactive.gif) center center repeat-x;
+}

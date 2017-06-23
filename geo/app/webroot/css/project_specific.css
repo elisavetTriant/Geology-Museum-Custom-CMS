@@ -1,0 +1,78 @@
+
+/* Project Specific CSS*/
+#main_content{
+clear: both;
+background-color:#FFFFFF;
+float:left;
+width:970px
+}
+
+#utility_menu{float:right;width:250px; margin-top:20px}
+#utility_menu a{color: #6da9a2; font-weight: normal; text-decoration: none;}
+#utility_menu a:hover {color: #578781; text-decoration: underline;}
+
+#logo h1{color:#6da9a2; margin:15px 20px; padding-left:55px; padding-top:-10px; font-size:20px; font-weight:normal; line-height:1.2em; font-family:"Trebuchet MS", Georgia, Garamond, serif; background:url(../img/logo.gif) no-repeat; line-height:1em}
+#logo h1 span{color:#456a66; font-size:14px; line-height:1.7em}
+
+ul.gallery{ list-style: none; margin:0;}
+ul.gallery li{ list-style-type:none; float: left; text-align:left; padding:0; margin:5px 0; width: 175px; height:180px}
+ul.gallery li img {float:none; margin:0;}
+ul.gallery li p{line-height:1.3em; font-size:0.9em; margin:0; }
+ul.gallery li h3, #main-content ul.gallery li h4{line-height:0; font-size:0.9em; margin-top:10px; }
+ul.gallery li img {padding:4px; background-color:#d9dbdc}
+ul.gallery li a img {border:1px solid #d9dbdc}
+ul.gallery li a:hover img{border:1px solid #999}
+ul.gallery li a { display:inline}
+
+div.side_gallery_view{float:right; width:200px; margin-top:30px; text-align:center}
+div.side_gallery_view ul.gallery li{text-align:center}
+
+#sample dl {line-height: 2em; margin: 0em 0em; width: 100%;}
+#sample dt {font-weight: bold;padding-left: 4px; vertical-align: top;background: url("../img/dt_line.gif") no-repeat bottom left;}
+#sample dd {margin-left: 14em; margin-top: -2em; vertical-align: top;}
+
+ul.display li{ height:160px;}
+#sample #photographs{float:left; width:370px}
+#sample #photographs h2{ text-align:right; padding-right:12px; padding-top: 0em; padding-bottom:0em; line-height:0.8em}
+#sample #photographs ul.gallery li{height:auto; width:350px}
+#sample #photographs ul.gallery li a img{ cursor:url("../img/magnifier.png"), pointer}
+#sample #information{float:left; width:250px; margin-top:3em; }
+
+div.float_column{float:left; width:220px; margin-top:15px} 
+
+ul.tagcloud{ list-style: none; width:220px}
+ul.tagcloud li{list-style-type:none; float:left; margin-right:8px}
+
+ul.lang {list-style:none; margin:5px 8px 5px 0; float:right;}
+ul.lang li{display:inline; padding:0 8px 0 25px}
+ul.lang li.en{background:url(../img/flagen.jpg) no-repeat center left}
+ul.lang li.gr{background:url(../img/flaggr.jpg) no-repeat center left}
+
+/* Paging */
+div.paging {background:#fff;color: #ccc;margin-top: 15px;margin-bottom: 40px; clear:both}
+div.paging div.disabled {color: #ddd;display: inline;display: none;}
+div.paging span {}
+div.paging span.current {font-size:12px;font-weight:bold;margin: 5px;color:#6da9a2;}
+div.paging a{padding: 5px 10px;background-color:#fff;font-size:12px;margin-right:3px;border:1px solid #CCC;}
+div.paging a:hover{padding: 5px 10px;background-color:#6da9a2;font-size:12px;color:#FFF;}
+
+p.alphabet a{padding: 5px;background-color:#fff;font-size:12px;margin-right:5px;border:1px solid #CCC;}
+p.alphabet a:hover {padding: 5px;background-color:#6da9a2;font-size:12px;color:#FFF;}
+
+/*Stripy table tr, and focus inputs highlight*/
+.highlight{background-image:url("../img/diagonalHighlight.gif");}
+.highlight-form{border:2px solid #479233}
+
+/*Custom admin messages styling*/
+#flashMessage, #authMessage{height:44px; margin-bottom:15px; padding:20px 0 0 60px; font-size:140%; font-weight:bold}
+#authMessage{background-color:#d4e5ee; background-image:url("../img/comment_warning_48.png"); background-repeat:no-repeat; background-position:10px; border:1px solid #b2c7d0 }
+.warning_msg{background-color:#e9dfaa; background-image:url("../img/warning_msg_icon.gif"); background-repeat:no-repeat; background-position:10px; border:1px solid #edb701 }
+.confirmation_msg{background-color:#bde068; background-image:url("../img/confirmation_msg_icon.gif"); background-repeat:no-repeat; background-position:10px; border:1px solid #3b9845}
+.error_msg{background-color:#ddbbba; background-image:url("../img/error_msg_icon.gif"); background-repeat:no-repeat; background-position:10px; border:1px solid #9a211f }
+
+ul.gallery_case li{ list-style-type:none; float: left; text-align:left; padding:0; margin:5px 0;}
+
+.sample_info{ border:1px solid #CCC; background-color:#FFFFCC; margin:10px 5px}
+.galleryview a img, .galleryview a:link img, .galleryview a:visited img, .galleryview a:hover img{border:none}
+
+#copyright{color:#666666; font-size:9px; padding:5px 0 5px 0}

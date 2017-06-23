@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.5em;
+}
+
+body{
+background-image:url(../img/wrap_back.gif);
+background-repeat:repeat-x;
+background-color:#6da9a2;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:80%;
+}
+
+#wrapper{
+width: 970px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+background-color:#FFFFFF;
+margin-top:5px;
+}
+
+
+					/*   ------------------------------------------   HEADER ---------------------------------------------- */
+#header{
+background: #FFF;
+background-image:url(../img/head_back.gif);
+background-repeat:repeat-y;
+height: 70px; /* change this when u want */
+}
+#logo{width:420px; height:70px; float:left;}
+
+#header_menu_contain{float:left; width:550px; text-align:right;}
+
+#header-banner{
+background: #000;
+height: 150px; /* change this when u want */
+border-bottom:1px solid #cfd7dd;
+float:left; clear:both; border-bottom:1px solid #333;border-top:1px solid #333
+}
+
+			  /*   --------------------------------------------   LEFT COLUMN ---------------------------------------------- */
+#left_col{
+width:730px;
+float:left;
+}
+.inside{margin:20px 10px 20px 20px}
+			  /*   --------------------------------------------   RIGHT COLUMN ---------------------------------------------- */
+#right_col{
+float: left;
+width:239px;
+background: #ecf0f4;
+min-height:200px;
+border-left:#CCCCCC 1px solid
+}
+#right_content{min-height:200px;}
+#right_end{
+background-image:url(../img/right_col_back.gif);
+background-repeat:repeat-x;
+height:50px;}
+
+
+			  /*   --------------------------------------------   FOOTER ---------------------------------------------- */
+#footer{
+clear: left; /* leave this alone */
+width: 100%;
+background-color:#f0f2f4;
+border-top:1px solid #cfd7dd;
+color: #7e868d;
+height:50px; /* change this if needed  */
+}
